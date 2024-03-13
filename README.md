@@ -1,2 +1,0 @@
-# CapitalVan
-Proyecto de CapitalVan
