@@ -4,8 +4,8 @@ namespace App\Controllers;
 
 class Login extends BaseController
 {
-    public function index()
+    public function index(): string
     {
-        echo view('login_view');
+        return view('login_view');
     }
 }
