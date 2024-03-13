@@ -1,0 +1,32 @@
+:root{
+  --bg-oscuro: #212529;
+  --amarillo: #f7a109;
+  --amarillo-oscuro:#5c4601;
+  --blanco: #dee2e6;
+}
+body{
+  background-color: var(--bg-oscuro);
+  min-height: 100vh;
+  padding: 0;
+}
+.gradiente{
+  background: linear-gradient(350deg, var(--amarillo) 3%, var(--amarillo-oscuro) 13%, var(--bg-oscuro) 30%);
+}
+.logo-navbar{
+  width: 15rem;
+}
+hr{
+  border: solid 1px var(--blanco) !important;
+  width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+a{
+  color: inherit !important;
+  text-decoration: inherit !important;
+}
+
+.borde-blanco{
+  border: solid 1px whitesmoke;
+}
