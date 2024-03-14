@@ -79,5 +79,22 @@
       </a>
     </div>
   </div>
-
 </div>
+<style>
+a{
+  text-decoration: inherit !important;
+  color: inherit !important;
+  cursor: auto !important;
+  }
+a.nostyle:link {
+    text-decoration: inherit !important;
+    color: inherit !important;
+    cursor: auto !important;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit!important;
+    color: inherit!important;
+    cursor: auto!important;
+}
+</style>
