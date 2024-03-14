@@ -16,10 +16,10 @@ body{
   width: 15rem;
 }
 hr{
-  border: solid 1px var(--blanco) !important;
-  width: 90% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  border: solid 1.2px var(--blanco) !important;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a{

@@ -1,7 +1,7 @@
 <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
 <footer class="navbar-fixed-bottom">
-<hr class="d-flex justify-content-center">
-<a href="#">
+<hr class="d-flex justify-content-center" style="margin-bottom: -0.2rem">
+<a href="http://localhost/CapitalVan">
   <img src="public/assets/img/salir.svg" alt="" class="float-end d-inline-block p-4" width="100">
 </a>
 <!-- <p>Environment: <?= ENVIRONMENT ?></p> -->
