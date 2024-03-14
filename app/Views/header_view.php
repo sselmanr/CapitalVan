@@ -6,7 +6,7 @@
   <meta name="description" content="Gestion de viajes de CapitalVan">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" type="image/png" href="/favicon.ico">
-  <link rel="stylesheet" href="<?php echo base_url()?>public/assets/css/styles.css">
+  <link rel="stylesheet" href="public/assets/css/styles.css">
 
   <!-- BOOTSTRAP -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#" >
-        <img src="public/assets/img/logoCapitalVan.png" alt="" class="logo-navbar float-center d-inline-block align-text-top" width="10">
+        <img src="public/assets/img/logoCapitalVan.png" alt="" class="logo-navbar float-center d-inline-block align-text-top" width="100">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
