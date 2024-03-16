@@ -8,4 +8,9 @@ class Login extends BaseController
     {
         return view('login_view');
     }
+    public function login(): string{
+        $usuario = $this->request->getPost('username');
+        $pass = $this->request->getPost('pass');
+        return "";
+    }
 }

@@ -30,3 +30,7 @@ a{
 .borde-blanco{
   border: solid 1px whitesmoke;
 }
+
+.alto-pantalla{
+  min-height: 77vh !important;
+}
