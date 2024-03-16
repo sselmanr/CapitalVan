@@ -38,39 +38,39 @@
             </li>
             <hr class="vr">
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('home')?>">Confirmar servicio</a>
+              <a class="nav-link" href="<?php echo site_url('confirmar_servicio')?>">Confirmar servicio</a>
             </li>
             <hr class="vr">
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('home')?>">Servicios realizados</a>
+              <a class="nav-link" href="<?php echo site_url('servicios_realzados')?>">Servicios realizados</a>
             </li>
             <hr class="vr">
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('home')?>">Fixture</a>
+              <a class="nav-link" href="<?php echo site_url('fixture')?>">Fixture</a>
             </li>
             <hr class="vr">
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('home')?>">Recursos</a>
+              <a class="nav-link" href="<?php echo site_url('recursos')?>">Recursos</a>
             </li>
             <hr class="vr">
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('home')?>">Conductor</a>
+              <a class="nav-link" href="<?php echo site_url('conductor')?>">Conductor</a>
             </li>
             <hr class="vr">
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('home')?>">Caja de gastos menores</a>
+              <a class="nav-link" href="<?php echo site_url('gastos_menores')?>">Caja de gastos menores</a>
             </li>
             <hr class="vr">
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('home')?>">Facturas realizadas</a>
+              <a class="nav-link" href="<?php echo site_url('facturas_realizadas')?>">Facturas realizadas</a>
             </li>
             <hr class="vr">
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('home')?>">Registro de pagos</a>
+              <a class="nav-link" href="<?php echo site_url('registro_pagos')?>">Registro de pagos</a>
             </li>
             <hr class="vr">
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('home')?>">Reportes</a>
+              <a class="nav-link" href="<?php echo site_url('reportes')?>">Reportes</a>
             </li>
             <hr class="vr">
           </ul>
