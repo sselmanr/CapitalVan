@@ -43,7 +43,7 @@
             </li>
             <hr class="vr">
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('servicios_realzados')?>">Servicios realizados</a>
+              <a class="nav-link" href="<?php echo site_url('servicios_realizados')?>">Servicios realizados</a>
             </li>
             <hr class="vr">
             <li class="nav-item">

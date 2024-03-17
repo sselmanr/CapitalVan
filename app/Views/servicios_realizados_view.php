@@ -1,114 +1,115 @@
 <!-- CONTENT -->
 <div class="container alto-pantalla">
-  <h2 class="text-center pb-5">Confirmar servicio</h2>
-  <h5 class="pb-1">
-    Buscar por fecha
+  <h2 class="text-center pb-5">Servicios realizados</h2>
+  <h5 class="pb-2">
+    Servicios <button class="badge bg-success pagados">pagados</button>
+    y <button class="badge bg-warning pendientes">pendientes</button>.
+    <!-- <button class="badge bg-primary ver-todos">Ver todos</button> -->
   </h5>
-  <input type="date" name="" id="filtro_fecha" class="form-control">
-  <div class="row d-flex justify-content-start align-items-center pt-4">
+  <div class="row d-flex justify-content-start align-items-center">
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="<?php echo date('Y-m-d')?>">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado>
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa AAA S.A.</h6>
-        </div>
-      </div>
-    </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+        <div class="d-flex justify-content-center align-items-center bg-success rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
           <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
         </div>
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente>
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+        <div class="d-flex justify-content-center align-items-center bg-warning rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
           <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
         </div>
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente>
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+        <div class="d-flex justify-content-center align-items-center bg-warning rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
           <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
         </div>
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente>
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+        <div class="d-flex justify-content-center align-items-center bg-warning rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
           <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
         </div>
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado>
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+        <div class="d-flex justify-content-center align-items-center bg-success rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
           <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
         </div>
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado>
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+        <div class="d-flex justify-content-center align-items-center bg-success rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
           <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
         </div>
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado>
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+        <div class="d-flex justify-content-center align-items-center bg-success rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
           <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
         </div>
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente>
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+        <div class="d-flex justify-content-center align-items-center bg-warning rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
           <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
         </div>
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente>
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+        <div class="d-flex justify-content-center align-items-center bg-warning rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
           <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
         </div>
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente>
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+        <div class="d-flex justify-content-center align-items-center bg-warning rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
           <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
         </div>
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente>
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+        <div class="d-flex justify-content-center align-items-center bg-warning rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+        <div class="flex-grow-1 ms-2 me-3">
+          <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
+        </div>
+      </div>
+    </div>
+    <!-- Etiqueta 1 -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado>
+      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
+        <div class="d-flex justify-content-center align-items-center bg-success rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
           <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
         </div>
@@ -191,11 +192,5 @@
         $("[data-pendiente]").fadeIn(400);
       });
     });
-
-    $("#filtro_fecha").change(function(){
-      $("#servicio").fadeOut(400);
-    });
-
-
   });
 </script>

@@ -1,0 +1,20 @@
+CRITICAL - 2024-03-17 15:57:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "confirmar_servicio_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('confirmar_servicio_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('confirmar_servicio_view', [], true)
+ 3 APPPATH\Controllers\ServiciosRealizados.php(10): view('confirmar_servicio_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ServiciosRealizados->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiciosRealizados))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-17 16:06:07 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+in APPPATH\Views\confirmar_servicio_view.php on line 10.
+ 1 APPPATH\Views\confirmar_servicio_view.php(10): date()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\confirmar_servicio_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('confirmar_servicio_view', [], true)
+ 5 APPPATH\Controllers\ConfirmarServicio.php(10): view('confirmar_servicio_view')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConfirmarServicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfirmarServicio))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
