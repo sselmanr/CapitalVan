@@ -32,5 +32,9 @@ a{
 }
 
 .alto-pantalla{
-  min-height: 77vh !important;
+  min-height: 66vh !important;
+}
+
+.borde-negro{
+  border:solid 2px black;
 }
