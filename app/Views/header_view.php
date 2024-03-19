@@ -17,80 +17,82 @@
 <style>
 </style>
 <!-- HEADER: MENU + HEROE SECTION -->
-<header class="pb-2 px-3 container">
+<header class="pb-2 px-3 container w-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="<?php echo site_url('home')?>" >
-        <img src="public/assets/img/logoCapitalVan.png" alt="" class="logo-navbar float-center d-inline-block align-text-top" width="100">
+      <div class="container">
+        <a class="" href="<?php echo site_url('home')?>" >
+          <img src="public/assets/img/logoCapitalVan.png" alt="" class="logo-navbar" width="100">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <hr class="d-flex justify-content-center ocultar">
-        <div class="collapse navbar-collapse float-end text-md-center" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
-            <hr class="vr">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center">
             <li class="nav-item">
               <a class="nav-link" href="<?php echo site_url('home')?>">Home</a>
             </li>
-            <hr class="vr">
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('ingresar_servicio')?>"> Ingresar servicio</a>
+            <div class="mx-md-1 mx-lg-2 mx-xl-3 mx-xxl-4"></div>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
+                <!-- <li><hr class="dropdown-divider"></li> -->
+                <li><a class="dropdown-item" href="<?php echo site_url('ingresar_servicio')?>">Ingresar servicio</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('confirmar_servicio')?>">Confirmar servicio</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('servicios_realizados')?>">Servicios realizados</a></li>
+              </ul>
             </li>
-            <hr class="vr">
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('confirmar_servicio')?>">Confirmar servicio</a>
-            </li>
-            <hr class="vr">
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('servicios_realizados')?>">Servicios realizados</a>
-            </li>
-            <hr class="vr">
+            <div class="mx-md-1 mx-lg-2 mx-xl-3 mx-xxl-4"></div>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo site_url('fixture')?>">Fixture</a>
             </li>
-            <hr class="vr">
+            <div class="mx-md-1 mx-lg-2 mx-xl-3 mx-xxl-4"></div>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo site_url('recursos')?>">Recursos</a>
             </li>
-            <hr class="vr">
+            <div class="mx-md-1 mx-lg-2 mx-xl-3 mx-xxl-4"></div>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo site_url('conductor')?>">Conductor</a>
             </li>
-            <hr class="vr">
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('gastos_menores')?>">Caja de gastos menores</a>
+            <div class="mx-md-1 mx-lg-2 mx-xl-3 mx-xxl-4"></div>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Reportes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <!-- <li><hr class="dropdown-divider"></li> -->
+                <li><a class="dropdown-item" href="<?php echo site_url('gastos_menores')?>">Caja de gastos menores</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('facturas_realizadas')?>">Facturas realizadas</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('registro_pagos')?>">Registro de pagos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('reportes')?>">Reportes</a></li>
+              </ul>
             </li>
-            <hr class="vr">
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('facturas_realizadas')?>">Facturas realizadas</a>
-            </li>
-            <hr class="vr">
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('registro_pagos')?>">Registro de pagos</a>
-            </li>
-            <hr class="vr">
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('reportes')?>">Reportes</a>
-            </li>
-            <hr class="vr">
           </ul>
         </div>
       </div>
     </nav>
 </header>
 <style>
-  @media (max-width: 768px) {
-    .vr {
-      display: none;
-    }
+.navbar-nav {
+      flex-grow: 1; /* Permite que los elementos del menú ocupen todo el espacio disponible */
+      
+  }
+  .margen{
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  @media (max-width: 991.33px) {
+  .vr {
+    display: none;
+      }
+  }
 
-}
-
-@media (min-width: 768px) {
-    .ocultar{
-      display: none !important;
-    }
-
-}
+  @media (min-width: 991.33px) {
+      .ocultar{
+        display: none !important;
+      }
+  }
 </style>
