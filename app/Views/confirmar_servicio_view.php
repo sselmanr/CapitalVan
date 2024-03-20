@@ -151,7 +151,7 @@
 
 
 
-<div class="modal modal-lg fade text-dark" data-bs-theme="light" id="datosServicio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal modal-lg fade text-dark align-items-center" data-bs-theme="light" id="datosServicio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header justify-content-between">
@@ -161,59 +161,63 @@
         </div>
         <div class="modal-body">
         <div class="container-fluid  rounded">
-          <div class="row m-1">
+          <div class="row">
             <div class="col text-dark">Empresa</div>
             <div class="col text-dark">Nombre de la empresa uno</div>
           </div>
           <hr>
-          <div class="row m-1">
+          <div class="row">
             <div class="col text-dark">Archivo</div>
             <div class="col text-dark">nombre_del_archivo</div>
           </div>
           <hr>
-          <div class="row m-1">
+          <div class="row">
             <div class="col text-dark">N° de pasajeros</div>
             <div class="col text-dark">12</div>
           </div>
           <hr>
-          <div class="row m-1">
+          <div class="row">
             <div class="col text-dark">Sigla del servicio</div>
             <div class="col text-dark">SigLA123</div>
           </div>
           <hr>
-          <div class="row m-1">
+          <div class="row">
             <div class="col text-dark">Origen</div>
             <div class="col text-dark">Aeropuerto SCL</div>
           </div>
           <hr>
-          <div class="row m-1">
+          <div class="row">
             <div class="col text-dark">Destino</div>
             <div class="col text-dark">Hotel Carrera</div>
           </div>
           <hr>
-          <div class="row m-1">
+          <div class="row">
             <div class="col text-dark">Fecha</div>
             <div class="col text-dark">01-04-2024</div>
           </div>
           <hr>
-          <div class="row m-1">
+          <div class="row">
             <div class="col text-dark">Conductor</div>
             <div class="col text-dark">Pedro Pascal</div>
           </div>
           <hr>
-          <div class="row m-1">
+          <div class="row">
             <div class="col text-dark">Valor</div>
             <div class="col text-dark">$100.000</div>
           </div>
           <hr>
-          <div class="row m-1 pt-4 pb-3">
+          <div class="row">
             <div class="col text-dark">Observaciones</div>
-            <div class="col text-dark">1 Pasajero baja en Alameda 1334</div>
+            <div class="col text-dark">Un pasajero baja en Alameda 1334</div>
           </div>
           <hr>
-          <div class="row m-1 pt-3 pb-3">
-            <div class="col text-dark">Aprobado por</div>
-            <div class="col text-dark">Maria Antonieta de las Nieves</div>
+          <div class="row">
+            <div class="col text-dark d-flex align-items-center">Aprobado por</div>
+            <div class="col text-dark">
+              Jorge Campillay <br>
+              Sebastián Rosales <br>
+              Salvador Selman <br>
+            </div>
           </div>
         </div>
         </div>
@@ -231,7 +235,8 @@
   </div>
 <style>
   hr{
-    padding: auto;
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
   }
 </style>
 <script>
