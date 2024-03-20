@@ -134,7 +134,7 @@
           <button type="button float-start " class="btn btn-secondary" data-bs-dismiss="modal">X</button>
         </div>
         <div class="modal-body">
-          <iframe src="https://www.flightradar24.com/LAN705/"></iframe>
+          <iframe src="https://www.google.cl/" width="100%" height="100%"></iframe>
         </div>
         <div class="modal-footer d-flex justify-content-between">
           <div class="col">
