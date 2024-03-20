@@ -13,7 +13,7 @@
       <h5 class="text-center pb-3" id="subtitulo"></h5>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="<?php echo date('Y-m-d')?>">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="<?php echo date('Y-m-d')?>" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
         <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
@@ -22,7 +22,7 @@
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-15">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-15" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
         <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
@@ -31,7 +31,7 @@
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="<?php echo date('Y-m-d')?>">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="<?php echo date('Y-m-d')?>" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
         <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
@@ -40,7 +40,7 @@
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="<?php echo date('Y-m-d')?>">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="<?php echo date('Y-m-d')?>" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
         <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
@@ -49,7 +49,7 @@
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="2024-03-12">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="2024-03-12" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
         <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
@@ -58,7 +58,7 @@
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="2024-03-12">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="2024-03-12" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
         <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
@@ -67,7 +67,7 @@
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="2024-03-13">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="2024-03-13" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
         <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
@@ -76,7 +76,7 @@
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-12">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-12" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
         <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
@@ -85,7 +85,7 @@
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-25">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-25" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
         <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
@@ -94,7 +94,16 @@
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-22">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-22" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
+      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
+        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+        <div class="flex-grow-1 ms-2 me-3">
+          <h6 class="text-dark mb-0">Empresa 12311 S.A.</h6>
+        </div>
+      </div>
+    </div>
+    <!-- Etiqueta 1 -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-22" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
         <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
@@ -103,16 +112,7 @@
       </div>
     </div>
     <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-22">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
-        </div>
-      </div>
-    </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
       <div class="d-flex flex-row align-items-center bg-light rounded-pill">
         <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
         <div class="flex-grow-1 ms-2 me-3">
@@ -122,65 +122,114 @@
     </div>
     <!-- Repite para las siguientes etiquetas -->
   </div>
+</div>
 
-  <div class="container-fluid bg-light rounded" style="display:none;" data-datos-servicio>
-    <h2 class="text-center text-dark pb-3 pt-3">Datos de servicio</h2>
-    <div class="row m-1">
-      <div class="col text-dark">Empresa</div>
-      <div class="col text-dark">Nombre de la empresa uno</div>
-    </div>
-    <div class="row m-1">
-      <div class="col text-dark">Archivo</div>
-      <div class="col text-dark">nombre_del_archivo</div>
-    </div>
-    <div class="row m-1">
-      <div class="col text-dark">N° de pasajeros</div>
-      <div class="col text-dark">12</div>
-    </div>
-    <div class="row m-1">
-      <div class="col text-dark">Sigla del servicio</div>
-      <div class="col text-dark">SigLA123</div>
-    </div>
-    <div class="row m-1">
-      <div class="col text-dark">Origen</div>
-      <div class="col text-dark">Aeropuerto SCL</div>
-    </div>
-    <div class="row m-1">
-      <div class="col text-dark">Destino</div>
-      <div class="col text-dark">Hotel Carrera</div>
-    </div>
-    <div class="row m-1">
-      <div class="col text-dark">Fecha</div>
-      <div class="col text-dark">01-04-2024</div>
-    </div>
-    <div class="row m-1">
-      <div class="col text-dark">Conductor</div>
-      <div class="col text-dark">Pedro Pascal</div>
-    </div>
-    <div class="row m-1">
-      <div class="col text-dark">Valor</div>
-      <div class="col text-dark">$100.000</div>
-    </div>
-    <div class="row m-1 pt-4 pb-3">
-      <div class="col text-dark">Observaciones</div>
-      <div class="col text-dark">1 Pasajero baja en Alameda 1334</div>
-    </div>
-    <div class="row m-1 pt-3 pb-3">
-      <div class="col text-dark">Aprobado por</div>
-      <div class="col text-dark">Maria Antonieta de las Nieves</div>
-    </div>
-    <div class="row m-1 pb-4 text-center">
-      <div class="col text-dark"><button class="btn btn-success">Aprobar</button></div>
-      <div class="col text-dark"><button class="btn btn-danger">Cancelar</button></div>
+<button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#datosVuelos" type="button">Datos vuelos</button>
+  <div class="modal fade text-dark" data-bs-theme="light" id="datosVuelos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="width:100% !important">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header justify-content-between">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Datos de servicio</h1>          
+          <!-- <button type="button" class="btn-close btn-white" data-bs-dismiss="modal" aria-label="Close"></button> -->
+          <button type="button float-start " class="btn btn-secondary" data-bs-dismiss="modal">X</button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.flightradar24.com/LAN705/"></iframe>
+        </div>
+        <div class="modal-footer d-flex justify-content-between">
+          <div class="col">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <button type="button" class="btn btn-danger">Cancelar</button> &nbsp;
+            <button type="button" class="btn btn-success">Aprobar</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<div class="d-flex justify-content-center">
-  <button class="btn btn-primary">Ventana modal</button>
-  <style>
 
-  </style>
-</div>
+
+
+<div class="modal fade text-dark" data-bs-theme="light" id="datosServicio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header justify-content-between">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Datos de servicio</h1>          
+          <!-- <button type="button" class="btn-close btn-white" data-bs-dismiss="modal" aria-label="Close"></button> -->
+          <button type="button float-start " class="btn btn-secondary" data-bs-dismiss="modal">X</button>
+        </div>
+        <div class="modal-body">
+        <div class="container-fluid  rounded">
+          <div class="row m-1">
+            <div class="col text-dark">Empresa</div>
+            <div class="col text-dark">Nombre de la empresa uno</div>
+          </div>
+          <hr>
+          <div class="row m-1">
+            <div class="col text-dark">Archivo</div>
+            <div class="col text-dark">nombre_del_archivo</div>
+          </div>
+          <hr>
+          <div class="row m-1">
+            <div class="col text-dark">N° de pasajeros</div>
+            <div class="col text-dark">12</div>
+          </div>
+          <hr>
+          <div class="row m-1">
+            <div class="col text-dark">Sigla del servicio</div>
+            <div class="col text-dark">SigLA123</div>
+          </div>
+          <hr>
+          <div class="row m-1">
+            <div class="col text-dark">Origen</div>
+            <div class="col text-dark">Aeropuerto SCL</div>
+          </div>
+          <hr>
+          <div class="row m-1">
+            <div class="col text-dark">Destino</div>
+            <div class="col text-dark">Hotel Carrera</div>
+          </div>
+          <hr>
+          <div class="row m-1">
+            <div class="col text-dark">Fecha</div>
+            <div class="col text-dark">01-04-2024</div>
+          </div>
+          <hr>
+          <div class="row m-1">
+            <div class="col text-dark">Conductor</div>
+            <div class="col text-dark">Pedro Pascal</div>
+          </div>
+          <hr>
+          <div class="row m-1">
+            <div class="col text-dark">Valor</div>
+            <div class="col text-dark">$100.000</div>
+          </div>
+          <hr>
+          <div class="row m-1 pt-4 pb-3">
+            <div class="col text-dark">Observaciones</div>
+            <div class="col text-dark">1 Pasajero baja en Alameda 1334</div>
+          </div>
+          <hr>
+          <div class="row m-1 pt-3 pb-3">
+            <div class="col text-dark">Aprobado por</div>
+            <div class="col text-dark">Maria Antonieta de las Nieves</div>
+          </div>
+        </div>
+        </div>
+        <div class="modal-footer d-flex justify-content-between">
+          <div class="col">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <button type="button" class="btn btn-danger">Cancelar</button> &nbsp;
+            <button type="button" class="btn btn-success">Aprobar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <script>
   $(document).ready(function(){
     $("#subtitulo").fadeOut(1);
@@ -209,3 +258,8 @@
 
   });
 </script>
+<style>
+  .borde-negro{
+    border:solid 2px black;
+  }
+</style>

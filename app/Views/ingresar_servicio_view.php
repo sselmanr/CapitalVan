@@ -1,5 +1,5 @@
 <!-- CONTENT -->
-<div class="container alto-pantalla">
+<div class="container alto-pantalla px-3 px-lg-5">
   <h2 class="text-center pb-5">Ingresar servicio</h2>
   <form action="#" method="post">
     <div class="row pb-2">
@@ -42,7 +42,7 @@
     </div>
     <div class="row pb-2">
       <div class="col"><label for="observaciones">Observaciones</label></div>
-      <div class="col"><textarea name="observaciones" id="observaciones" rows="8" class="form-control"></textarea></div>
+      <div class="col"><textarea name="observaciones" id="observaciones" rows="4" class="form-control"></textarea></div>
     </div>
     <div class="row pb-2">
       <div class="col"><label for="fecha">Fecha del servicio</label></div>
