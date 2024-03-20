@@ -125,7 +125,7 @@
 </div>
 
 <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#datosVuelos" type="button">Datos vuelos</button>
-  <div class="modal fade text-dark" data-bs-theme="light" id="datosVuelos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="width:100% !important">
+  <div class="modal fade text-dark" data-bs-theme="light" id="datosVuelos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header justify-content-between">
