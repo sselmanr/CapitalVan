@@ -125,7 +125,7 @@
 </div>
 
 <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#datosVuelos" type="button">Datos vuelos</button>
-  <div class="modal fade text-dark" data-bs-theme="light" id="datosVuelos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal modal-lg fade text-dark" data-bs-theme="light" id="datosVuelos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header justify-content-between">
@@ -151,7 +151,7 @@
 
 
 
-<div class="modal fade text-dark" data-bs-theme="light" id="datosServicio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal modal-lg fade text-dark" data-bs-theme="light" id="datosServicio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header justify-content-between">
@@ -229,7 +229,11 @@
       </div>
     </div>
   </div>
-
+<style>
+  hr{
+    padding: auto;
+  }
+</style>
 <script>
   $(document).ready(function(){
     $("#subtitulo").fadeOut(1);
