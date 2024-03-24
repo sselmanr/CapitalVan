@@ -67,8 +67,20 @@
                 <li><a class="dropdown-item" href="<?php echo site_url('gastos_menores')?>">Caja de gastos menores</a></li>
                 <li><a class="dropdown-item" href="<?php echo site_url('facturas_realizadas')?>">Facturas realizadas</a></li>
                 <li><a class="dropdown-item" href="<?php echo site_url('registro_pagos')?>">Registro de pagos</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <!-- <li><hr class="dropdown-divider"></li> -->
                 <li><a class="dropdown-item" href="<?php echo site_url('reportes')?>">Reportes</a></li>
+              </ul>
+            </li>
+            <div class="mx-md-1 mx-lg-2 mx-xl-3 mx-xxl-4"></div>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Usuarios
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="<?php echo site_url('gastos_menores')?>">Agregar usuario</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('facturas_realizadas')?>">Ver usuarios</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('registro_pagos')?>">Modificar Usuarios</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('reportes')?>">Eliminar Usuarios</a></li>
               </ul>
             </li>
           </ul>

@@ -2,107 +2,114 @@ CREATE DATABASE IF NOT EXISTS CapitalVan;
 USE CapitalVan;
 
 /* Borrado de tablas para ejecutar desde 0 */
-DROP TABLE IF EXISTS Servicio;
-DROP TABLE IF EXISTS Lugar;
-DROP TABLE IF EXISTS Empresa;
-DROP TABLE IF EXISTS Recurso;
-DROP TABLE IF EXISTS Usuario;
-DROP TABLE IF EXISTS Tipo_Usuario;
+DROP TABLE IF EXISTS Service;
+DROP TABLE IF EXISTS Place;
+DROP TABLE IF EXISTS Company;
+DROP TABLE IF EXISTS Vehicle;
+DROP TABLE IF EXISTS User;
+DROP TABLE IF EXISTS User_Type;
 /* Borrado de tablas para ejecutar desde 0 */
 
-CREATE TABLE IF NOT EXISTS Tipo_Usuario(
-	id_tipo_usuario INT NOT NULL AUTO_INCREMENT,
-	tipo_usuario VARCHAR(10) NOT NULL,
-	PRIMARY KEY(id_tipo_usuario)
+CREATE TABLE IF NOT EXISTS User_Type(
+  id_user_type INT NOT NULL AUTO_INCREMENT,
+	user_type VARCHAR(15) NOT NULL,
+	PRIMARY KEY(id_user_type)
 )CHARSET=utf8;
 
-CREATE TABLE IF NOT EXISTS Usuario (
-    id_usuario INT NOT NULL AUTO_INCREMENT,
-    id_tipo_usuario INT NOT NULL,
-    nombre_usuario VARCHAR(50) NOT NULL,
-    apellido_usuario VARCHAR(50) NOT NULL,
-    correo_usuario VARCHAR(100),
-    rut_usuario VARCHAR(15),
-    contrasena_usuario VARCHAR(100),
-	PRIMARY KEY(id_usuario),
-    FOREIGN KEY(id_tipo_usuario) REFERENCES Tipo_Usuario(id_tipo_usuario)
+CREATE TABLE IF NOT EXISTS User(
+  id_user INT NOT NULL AUTO_INCREMENT,
+  id_user_type INT NOT NULL,
+  user_name VARCHAR(50) NOT NULL,
+  user_lastname VARCHAR(50) NOT NULL,
+  user_username VARCHAR(20) NOT NULL,
+  user_email VARCHAR(100),
+  user_phone INT NOT NULL,
+  user_rut VARCHAR(15),
+  user_pass VARCHAR(100),
+  user_created_at DATETIME NOT NULL DEFAULT NOW(),
+	PRIMARY KEY(id_user),
+    FOREIGN KEY(id_user_type) REFERENCES User_Type(id_user_type)
 )CHARSET=utf8;
 
-CREATE TABLE IF NOT EXISTS Recurso (
-    id_recurso INT NOT NULL AUTO_INCREMENT,
-    patente_recurso VARCHAR(12) NOT NULL,
-	PRIMARY KEY(id_recurso)
+CREATE TABLE IF NOT EXISTS Vehicle (
+  id_vehicle INT NOT NULL AUTO_INCREMENT,
+  vehicle_licence_plate VARCHAR(12) NOT NULL,
+	PRIMARY KEY(id_vehicle)
 )CHARSET=utf8;
 
-CREATE TABLE IF NOT EXISTS Empresa (
-    id_empresa INT NOT NULL AUTO_INCREMENT,
-    nombre_empresa VARCHAR(100) NOT NULL,
-    nombre_contacto_empresa VARCHAR(50) NOT NULL,
-    rut_empresa VARCHAR(15) NOT NULL,
-    telefono_empresa INT,
-    correo_empresa VARCHAR(100),
-    dirección_empresa VARCHAR(100),
-	PRIMARY KEY(id_empresa)
+CREATE TABLE IF NOT EXISTS Company (
+  id_company INT NOT NULL AUTO_INCREMENT,
+  company_name VARCHAR(100) NOT NULL,
+  company_contact_name VARCHAR(50) NOT NULL,
+  company_rut VARCHAR(15) NOT NULL,
+  company_phone INT,
+  company_email VARCHAR(100),
+  company_address VARCHAR(100),
+	PRIMARY KEY(id_company)
 )CHARSET=utf8;
 
-CREATE TABLE IF NOT EXISTS Lugar(
-    id_lugar INT NOT NULL AUTO_INCREMENT,
-    nombre_lugar VARCHAR(100) NOT NULL,
-    dirección_lugar VARCHAR(100) NOT NULL,
-    telefono_lugar INT NOT NULL,
-    correo_lugar VARCHAR(100) NOT NULL,
-    PRIMARY KEY (id_lugar)
+CREATE TABLE IF NOT EXISTS Place(
+  id_place INT NOT NULL AUTO_INCREMENT,
+  place_name VARCHAR(100) NOT NULL,
+  place_address VARCHAR(100) NOT NULL,
+  place_phone INT NOT NULL,
+  place_email VARCHAR(100) NOT NULL,
+  PRIMARY KEY (id_place)
 )CHARSET=utf8;
 
-CREATE TABLE IF NOT EXISTS Servicio (
-    id_servicio INT NOT NULL AUTO_INCREMENT,
-    id_conductor_servicio INT,
-    id_guia_servicio INT NOT NULL,
-    id_aprobador_servicio INT,
-    id_recurso_servicio INT,
-    id_empresa_servicio INT NOT NULL,
-    origen_servicio INT NOT NULL,
-    destino_servicio INT NOT NULL,
-    fecha_servicio DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    sigla_servicio INT NOT NULL,
-    cantidad_pasajeros_servicio INT NOT NULL,
-    valor_servicio INT NOT NULL,
-    estado_servicio TINYINT(1) NOT NULL DEFAULT '0',
-    archivo_adjunto_servicio VARCHAR(200),
+CREATE TABLE IF NOT EXISTS Service(
+  id_service INT NOT NULL AUTO_INCREMENT,
+  id_service_driver INT,
+  id_service_guide INT NOT NULL,
+  id_service_approver INT,
+  id_service_vehicle INT,
+  id_service_company INT NOT NULL,
+  service_origin INT NOT NULL,
+  service_destination INT NOT NULL,
+  service_date DATE NOT NULL DEFAULT CURDATE(),
+  service_acronym VARCHAR(10) NOT NULL,
+  service_quantity_passengers INT NOT NULL,
+  service_price INT NOT NULL,
+  service_status TINYINT(1) NOT NULL DEFAULT '0',
+  service_attachment VARCHAR(200),
 
-	PRIMARY KEY(id_servicio),
-    FOREIGN KEY(id_conductor_servicio) REFERENCES Usuario(id_usuario),
-    FOREIGN KEY(id_guia_servicio) REFERENCES Usuario(id_usuario),
-    FOREIGN KEY(id_recurso_servicio) REFERENCES Recurso(id_recurso),
-    FOREIGN KEY(id_empresa_servicio) REFERENCES Empresa(id_empresa),
-    FOREIGN KEY(id_aprobador_servicio) REFERENCES Usuario(id_usuario),
-    FOREIGN KEY(origen_servicio) REFERENCES Lugar(id_lugar),
-    FOREIGN KEY(destino_servicio) REFERENCES Lugar(id_lugar)
+	PRIMARY KEY(id_service),
+  FOREIGN KEY(id_service_driver) REFERENCES User(id_user),
+  FOREIGN KEY(id_service_guide) REFERENCES User(id_user),
+  FOREIGN KEY(id_service_vehicle) REFERENCES Vehicle(id_vehicle),
+  FOREIGN KEY(id_service_company) REFERENCES Company(id_company),
+  FOREIGN KEY(id_service_approver) REFERENCES User(id_user),
+  FOREIGN KEY(service_origin) REFERENCES Place(id_place),
+  FOREIGN KEY(service_destination) REFERENCES Place(id_place)
 )CHARSET=utf8;
 
 /* Se agregan datos para pruebas */
-INSERT INTO Tipo_Usuario(tipo_usuario)
-    VALUES ('Administrador');
-INSERT INTO Tipo_Usuario(tipo_usuario)
-    VALUES ('Conductor');
-INSERT INTO Tipo_Usuario(tipo_usuario)
-    VALUES ('Guia');
-INSERT INTO Tipo_Usuario(tipo_usuario)
-    VALUES ('Cliente');
+INSERT INTO User_Type(user_type)
+  VALUES ('Administrador');
+INSERT INTO User_Type(user_type)
+  VALUES ('Conductor');
+INSERT INTO User_Type(user_type)
+  VALUES ('Guia');
+INSERT INTO User_Type(user_type)
+  VALUES ('Cliente');
 
-INSERT INTO Usuario (id_tipo_usuario, nombre_usuario, apellido_usuario, correo_usuario, rut_usuario, contrasena_usuario) VALUES (1, 'Salvador', 'Selman', 'salvador@nandudigital.cl', '180229140', MD5('contraseña'));
-INSERT INTO Usuario (id_tipo_usuario, nombre_usuario, apellido_usuario, correo_usuario, rut_usuario, contrasena_usuario) VALUES (1, 'Prueba', 'Prueba', 'prueba@correo.cl', '12345674', MD5('contraseña'));
-INSERT INTO Usuario (id_tipo_usuario, nombre_usuario, apellido_usuario, correo_usuario, rut_usuario, contrasena_usuario) VALUES (3, 'Guia', 'Uno', 'guia1@correo.cl', '12345674', MD5('contraseña'));
-INSERT INTO Usuario (id_tipo_usuario, nombre_usuario, apellido_usuario, correo_usuario, rut_usuario, contrasena_usuario) VALUES (2, 'Conductor', 'Uno', 'conductor1@correo.cl', '12345674', MD5('contraseña'));
+INSERT INTO User (id_user_type, user_name, user_lastname, user_username, user_email, user_phone, user_rut, user_pass) VALUES (1, 'Admin', '', 'admin' ,'salvador@nandudigital.cl', 123456789, '180229140', MD5('admin'));
+INSERT INTO User (id_user_type, user_name, user_lastname, user_username, user_email, user_phone, user_rut, user_pass) VALUES (1, 'Salvador', 'Selman', 'sselman' ,'salvador@nandudigital.cl', 123456789, '180229140', MD5('contraseña'));
+INSERT INTO User (id_user_type, user_name, user_lastname, user_username, user_email, user_phone, user_rut, user_pass) VALUES (1, 'Prueba', 'Prueba', 'pprueba' ,'prueba@correo.cl', 123456789, '12345674', MD5('contraseña'));
+INSERT INTO User (id_user_type, user_name, user_lastname, user_username, user_email, user_phone, user_rut, user_pass) VALUES (3, 'Guia', 'Uno', 'guno' ,'guia1@correo.cl', 123456789, '12345674', MD5('contraseña'));
+INSERT INTO User (id_user_type, user_name, user_lastname, user_username, user_email, user_phone, user_rut, user_pass) VALUES (2, 'Conductor', 'Uno', 'cuno' ,'conductor1@correo.cl', 123456789, '12345674', MD5('contraseña'));
 
-INSERT INTO Recurso (patente_recurso) VALUES ('AAAA01');
+INSERT INTO Vehicle (vehicle_licence_plate) VALUES ('AAAA01');
 
-INSERT INTO Empresa (nombre_empresa, nombre_contacto_empresa, rut_empresa, telefono_empresa, correo_empresa, dirección_empresa) VALUES ('Empresa uno', 'contacto empresa 1', 111111111, 1111111111, 'empresa1@correo.cl', 'direccion empresa uno 111');
-INSERT INTO Empresa (nombre_empresa, nombre_contacto_empresa, rut_empresa, telefono_empresa, correo_empresa, dirección_empresa) VALUES ('Empresa dos', 'contacto empresa 2', 222222222, 2222222222, 'empresa2@correo.cl', 'direccion empresa dos 222');
+INSERT INTO Company (company_name, company_contact_name, company_rut, company_phone, company_email, company_address) 
+              VALUES('Empresa uno', 'contacto empresa 1', 111111111, 111111111, 'empresa1@correo.cl', 'direccion empresa uno 111');
+INSERT INTO Company (company_name, company_contact_name, company_rut, company_phone, company_email, company_address) 
+              VALUES('Empresa dos', 'contacto empresa 2', 222222222, 222222222, 'empresa2@correo.cl', 'direccion empresa dos 222');
+INSERT INTO Company (company_name, company_contact_name, company_rut, company_phone, company_email, company_address) 
+              VALUES('Empresa tres', 'contacto empresa 3', 333333333, 333333333, 'empresa3@correo.cl', 'direccion empresa tres 333');
 
-INSERT INTO Lugar (nombre_lugar, dirección_lugar, telefono_lugar, correo_lugar) VALUES ('lugar uno', 'direccion lugar uno', 444416666, 'lugar1@correo.cl');
-INSERT INTO Lugar (nombre_lugar, dirección_lugar, telefono_lugar, correo_lugar) VALUES ('lugar dos', 'direccion lugar dos', 777725555, 'lugar2@correo.cl');
-INSERT INTO Lugar (nombre_lugar, dirección_lugar, telefono_lugar, correo_lugar) VALUES ('lugar tres', 'direccion lugar tres', 111123333, 'lugar3@correo.cl');
+INSERT INTO Place (place_name, place_address, place_phone, place_email) VALUES ('lugar uno', 'direccion lugar uno', 444416666, 'lugar1@correo.cl');
+INSERT INTO Place (place_name, place_address, place_phone, place_email) VALUES ('lugar dos', 'direccion lugar dos', 777725555, 'lugar2@correo.cl');
+INSERT INTO Place (place_name, place_address, place_phone, place_email) VALUES ('lugar tres', 'direccion lugar tres', 111123333, 'lugar3@correo.cl');
 
-INSERT INTO Servicio (id_guia_servicio, id_empresa_servicio, origen_servicio, destino_servicio, sigla_servicio, cantidad_pasajeros_servicio, valor_servicio)
-VALUES (3, 1, 1, 2, 'AAA001', 6, 150000);
+INSERT INTO Service (id_service_guide, id_service_company, service_origin, service_destination, service_acronym, service_quantity_passengers, service_price) VALUES (3, 1, 1, 2, 'AAA001', 6, 150000);

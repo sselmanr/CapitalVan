@@ -1,8 +1,76 @@
 <!-- CONTENT -->
 <div class="container text-center alto-pantalla">
-  <h1 class="text-start">Hola, Patrick!</h1>
-  Viajes en vivo
-  <iframe class="pt-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.4383208054032!2d-70.65110302883606!3d-33.43788514696174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a39d9e805d%3A0x323783368ccc1977!2sPl.%20de%20Armas%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1710264140606!5m2!1ses-419!2scl" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <h1 class="text-start ps-4">¡Hola <?php echo session()->get('user_name') ?>!</h1>
+  <div class="container align-items-center">
+    <h5 class="p-3">Servicios activos</h5>
+    <div class="container">
+    <h1>Usuarios</h1>
+    <ul class="list-group">
+        <?php foreach ($users as $user) : ?>
+            <li class="list-group-item"><?= $user['user_name'] ?></li>
+        <?php endforeach; ?>
+    </ul>
+    <div class="col d-flex justify-content-md-end justify-content-center text-dark" data-bs-theme="light">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+          <?php foreach ($pager->links() as $link) : ?>
+            <li class="page-item"><a class="page-link" href="">1</a></li>
+            
+          <?php endforeach ?>
+          <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+        </ul>
+      </nav>
+    </div>
+</div>
+    <table class="table table-sm table-light table-striped table-bordered rounded">
+      <thead class="">
+        <tr>
+          <th scope="col">Sigla</th>
+          <th scope="col">Origen</th>
+          <th scope="col" class="d-none d-lg-table-cell">Destino</th>
+          <th scope="col" class="d-none d-lg-table-cell">Pasajeros</th>
+          <th scope="col">Estado</th>
+          <th scope="col" class="d-sm-none">Más detalles</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>AAAAA</td>
+          <td>Aeropuerto SCL</td>
+          <td class="d-none d-lg-table-cell">Hotel Ibis Providencia</td>
+          <td class="d-none d-lg-table-cell">12</td>
+          <td>Activo</td>
+          <td class="d-sm-none"><button type="button" class="btn btn-info">Ver más</button></td>
+        </tr>
+        <tr>
+          <td>EEEEE</td>
+          <td>Termina de buses</td>
+          <td class="d-none d-lg-table-cell">Hotel Ibis Viña del mar</td>
+          <td class="d-none d-lg-table-cell">6</td>
+          <td>Por confirmar</td>
+          <td class="d-sm-none"><button type="button" class="btn btn-success">Confirmar</button></td>
+        </tr>
+        <tr>
+          <td>TTTTTT</td>
+          <td>Aeropuerto SCL</td>
+          <td class="d-none d-lg-table-cell">Hostal Valdivia</td>
+          <td class="d-none d-lg-table-cell">8</td>
+          <td>Activo</td>
+          <td class="d-sm-none"><button type="button" class="btn btn-info">Ver más</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="col d-flex justify-content-end text-dark" data-bs-theme="light">
+      <nav>
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
   <div class="row pt-5">
   <div class="col col-3 text-center">
       <a href="<?php echo site_url('ingresar_servicio')?>">
@@ -81,6 +149,9 @@
   </div>
 </div>
 <style>
+table{
+  border: solid 3px;
+}
 a{
   text-decoration: inherit !important;
   color: inherit !important;

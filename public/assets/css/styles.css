@@ -38,3 +38,7 @@ a{
 .borde-negro{
   border:solid 2px black;
 }
+
+.borde-verde{
+  border: solid 4px green;
+}

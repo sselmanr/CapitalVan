@@ -29,4 +29,9 @@ class Services extends BaseService
      *     return new \CodeIgniter\Example();
      * }
      */
+    /* public static function session($getShared = true)
+    {
+        return self::getSharedInstance('session', $getShared);
+    }
+ */
 }
