@@ -10,14 +10,18 @@
             <li class="list-group-item"><?= $user['user_name'] ?></li>
         <?php endforeach; ?>
     </ul>
+    <?php  
+      foreach ($$pager->links() as $link) {
+        # code...
+      }
+    ?>
     <div class="col d-flex justify-content-md-end justify-content-center text-dark" data-bs-theme="light">
       <nav aria-label="Page navigation example">
         <ul class="pagination">
           <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
-          <?php foreach ($pager->links() as $link) : ?>
-            <li class="page-item"><a class="page-link" href="">1</a></li>
-            
-          <?php endforeach ?>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
           <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
         </ul>
       </nav>
