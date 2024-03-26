@@ -26,6 +26,11 @@ class Pager extends BaseConfig
         'default_head'   => 'CodeIgniter\Pager\Views\default_head',
     ];
 
+    public array $template_servicios_activos = [
+        'default_full'   => 'App\Views\Pager\es_pagination',
+        'default_simple' => 'App\Views\Pager\es_pagination',
+        'default_head'   => 'App\Views\Pager\es_pagination',
+    ];
     /**
      * --------------------------------------------------------------------------
      * Items Per Page

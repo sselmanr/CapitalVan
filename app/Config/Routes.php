@@ -9,7 +9,7 @@ $routes->get('/', 'Login::index');
 $routes->get('home','Home::index');
 $routes->post('home','Home::index');
 $routes->post('login','Login::login');
-$routes->post('logout','Login::logout');
+$routes->get('logout','Login::logout');
 $routes->get('ingresar_servicio', 'IngresarServicio::index');
 $routes->get('confirmar_servicio', 'ConfirmarServicio::index');
 $routes->get('servicios_realizados', 'ServiciosRealizados::index');

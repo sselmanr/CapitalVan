@@ -38,6 +38,7 @@ class Filters extends BaseConfig
             // 'honeypot',
             // 'csrf',
             // 'invalidchars',
+            'authGuard' => ['except' => ['/', 'login']],
         ],
         'after' => [
             'toolbar',

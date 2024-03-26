@@ -2,7 +2,7 @@
 <footer class="navbar-fixed-bottom">
 <div class="container">
 <hr class="d-flex justify-content-center" style="margin-bottom: -0.2rem">
-<a href="<?php echo base_url()?>">
+<a href="<?php echo base_url()?>logout">
   <img src="public/assets/img/salir.svg" alt="" class="float-end d-inline-block p-4" width="100">
 </a>
 <!-- <p>Environment: <?= ENVIRONMENT ?></p> -->

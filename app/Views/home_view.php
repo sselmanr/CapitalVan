@@ -2,79 +2,71 @@
 <div class="container text-center alto-pantalla">
   <h1 class="text-start ps-4">¡Hola <?php echo session()->get('user_name') ?>!</h1>
   <div class="container align-items-center">
-    <h5 class="p-3">Servicios activos</h5>
-    <div class="container">
-    <h1>Usuarios</h1>
-    <ul class="list-group">
-        <?php foreach ($users as $user) : ?>
-            <li class="list-group-item"><?= $user['user_name'] ?></li>
-        <?php endforeach; ?>
-    </ul>
-    <?php  
-      foreach ($$pager->links() as $link) {
-        # code...
-      }
-    ?>
-    <div class="col d-flex justify-content-md-end justify-content-center text-dark" data-bs-theme="light">
-      <nav aria-label="Page navigation example">
-        <ul class="pagination">
-          <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+    <h5 class="">Servicios activos</h5>
+    <div class="" data-bs-theme="light">
+      <table class="table table-hover table-striped table-sm">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre conductor</th>
+            <th>Nombre aprobador</th>
+            <th>Origen</th>
+            <th class="d-none d-lg-table-cell">Destino</th>
+          </tr>
+        </thead>
+        <tbody>
+          <?php foreach ($services as $service) : ?>
+            <tr>
+              <td> <?= $service['id_service']?> </td>
+              <td> <?= $service['nameDriver']?> &nbsp; <?= $service['lastnameDriver']?></td>
+              <td> <?= $service['nameApprover']?> &nbsp; <?= $service['lastnameApprover']?></td>
+              <td> <?= $service['origin']?> </td>
+              <td> <?= $service['destination']?> </td>
+              
+              
+            </tr>
+          <?php endforeach; ?>
+        </tbody>
+      </table>
+
+
+      <nav aria-label="Page navigation example" data-bs-theme="light">
+        <ul class="pagination text-dark justify-content-center justify-content-md-end">
+          <?php if ($pager->getCurrentPage() != 1) : ?>
+            <li class="page-item">
+              <a class="page-link" href="<?= "home?page=" . $pager->getCurrentPage() - 1 ?>" aria-label="<?= lang('Pager.previous') ?>">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+          <?php else :?>
+            <li class="page-item">
+              <a class="page-link disabled"  aria-label="<?= lang('Pager.previous') ?>">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+          <?php endif ?>
+          <li class="page-item">
+            <?= str_ireplace('<a', '<a class="page-link"', $pager->links()) ?>
+          </li>
+          <?php if ($pager->getCurrentPage() < $pager->getPageCount()) : ?>
+            <li class="page-item">
+              <a class="page-link" href="<?= "home?page=" . $pager->getCurrentPage() + 1 ?>" aria-label="<?= lang('Pager.previous') ?>">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          <?php else :?>
+            <li class="page-item">
+              <a class="page-link disabled"  aria-label="<?= lang('Pager.previous') ?>">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          <?php endif ?>
         </ul>
-      </nav>
+      </nav>  
     </div>
+
 </div>
-    <table class="table table-sm table-light table-striped table-bordered rounded">
-      <thead class="">
-        <tr>
-          <th scope="col">Sigla</th>
-          <th scope="col">Origen</th>
-          <th scope="col" class="d-none d-lg-table-cell">Destino</th>
-          <th scope="col" class="d-none d-lg-table-cell">Pasajeros</th>
-          <th scope="col">Estado</th>
-          <th scope="col" class="d-sm-none">Más detalles</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>AAAAA</td>
-          <td>Aeropuerto SCL</td>
-          <td class="d-none d-lg-table-cell">Hotel Ibis Providencia</td>
-          <td class="d-none d-lg-table-cell">12</td>
-          <td>Activo</td>
-          <td class="d-sm-none"><button type="button" class="btn btn-info">Ver más</button></td>
-        </tr>
-        <tr>
-          <td>EEEEE</td>
-          <td>Termina de buses</td>
-          <td class="d-none d-lg-table-cell">Hotel Ibis Viña del mar</td>
-          <td class="d-none d-lg-table-cell">6</td>
-          <td>Por confirmar</td>
-          <td class="d-sm-none"><button type="button" class="btn btn-success">Confirmar</button></td>
-        </tr>
-        <tr>
-          <td>TTTTTT</td>
-          <td>Aeropuerto SCL</td>
-          <td class="d-none d-lg-table-cell">Hostal Valdivia</td>
-          <td class="d-none d-lg-table-cell">8</td>
-          <td>Activo</td>
-          <td class="d-sm-none"><button type="button" class="btn btn-info">Ver más</button></td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="col d-flex justify-content-end text-dark" data-bs-theme="light">
-      <nav>
-        <ul class="pagination">
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
+
   <div class="row pt-5">
   <div class="col col-3 text-center">
       <a href="<?php echo site_url('ingresar_servicio')?>">

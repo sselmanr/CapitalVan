@@ -97,13 +97,13 @@
     margin-left: 2rem !important;
     margin-right: 2rem !important;
   }
-  @media (max-width: 991.33px) {
+  @media (max-width: 992px) {
   .vr {
     display: none;
       }
   }
 
-  @media (min-width: 991.33px) {
+  @media (min-width: 992px) {
       .ocultar{
         display: none !important;
       }

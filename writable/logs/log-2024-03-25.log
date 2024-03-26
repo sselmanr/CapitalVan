@@ -1,0 +1,1105 @@
+INFO - 2024-03-25 00:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 00:23:04 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Views\home_view.php on line 14.
+ 1 APPPATH\Views\home_view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 00:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 00:23:11 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Views\home_view.php on line 14.
+ 1 APPPATH\Views\home_view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 00:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 00:24:04 --> Error: Call to undefined function simpleLinks()
+in APPPATH\Views\home_view.php on line 14.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 00:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 00:24:10 --> Error: Call to undefined function simpleLinks()
+in APPPATH\Views\home_view.php on line 14.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 00:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 00:24:29 --> Error: Call to undefined function simpleLinks()
+in APPPATH\Views\home_view.php on line 14.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 00:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 00:35:59 --> ParseError: syntax error, unexpected token "echo"
+in APPPATH\Views\home_view.php on line 31.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 00:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 00:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 01:09:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "CodeIgniter\Pager\SimplePagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CodeIgniter\\Pager\\SimplePagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('CodeIgniter\\Pager\\SimplePagination')
+ 3 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('default', 'default_full')
+ 4 APPPATH\Views\home_view.php(40): CodeIgniter\Pager\Pager->links()
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 8 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 01:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 01:09:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "CodeIgniter\Pager\SimplePagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CodeIgniter\\Pager\\SimplePagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('CodeIgniter\\Pager\\SimplePagination')
+ 3 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('default', 'default_full')
+ 4 APPPATH\Views\home_view.php(40): CodeIgniter\Pager\Pager->links()
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 8 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 01:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 01:09:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "CodeIgniter\Pager\SimplePagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CodeIgniter\\Pager\\SimplePagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('CodeIgniter\\Pager\\SimplePagination')
+ 3 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('default', 'default_full')
+ 4 APPPATH\Views\home_view.php(40): CodeIgniter\Pager\Pager->links()
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 8 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 01:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 01:10:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "CodeIgniter\Pager\Views\SimplePagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CodeIgniter\\Pager\\Views\\SimplePagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('CodeIgniter\\Pager\\Views\\SimplePagination')
+ 3 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('default', 'default_full')
+ 4 APPPATH\Views\home_view.php(40): CodeIgniter\Pager\Pager->links()
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 8 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 01:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 01:10:36 --> CodeIgniter\Pager\Exceptions\PagerException: "default_full" is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 122.
+ 1 SYSTEMPATH\Pager\Pager.php(122): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('default_full')
+ 2 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('default', 'default_full')
+ 3 APPPATH\Views\home_view.php(40): CodeIgniter\Pager\Pager->links()
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 7 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 01:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 01:11:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "CodeIgniter\Pager\SimplePagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CodeIgniter\\Pager\\SimplePagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('CodeIgniter\\Pager\\SimplePagination')
+ 3 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('default', 'default_full')
+ 4 APPPATH\Views\home_view.php(40): CodeIgniter\Pager\Pager->links()
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 8 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 01:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 01:13:16 --> Error: Call to undefined method CodeIgniter\Pager\Pager::hasPrevious()
+in APPPATH\Views\home_view.php on line 35.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 01:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 01:22:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "CodeIgniter\Pager\es_pagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CodeIgniter\\Pager\\es_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('CodeIgniter\\Pager\\es_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('default', 'default_full')
+ 4 APPPATH\Views\home_view.php(40): CodeIgniter\Pager\Pager->links()
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 8 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 01:25:07 --> ErrorException: Undefined variable $page
+in APPPATH\Views\home_view.php on line 40.
+ 1 APPPATH\Views\home_view.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 01:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 01:25:13 --> ErrorException: Undefined variable $page
+in APPPATH\Views\home_view.php on line 40.
+ 1 APPPATH\Views\home_view.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 01:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 01:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:08:54 --> ParseError: syntax error, unexpected identifier "page", expecting "," or ";"
+in APPPATH\Views\home_view.php on line 36.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:09:52 --> Error: Undefined constant "pager"
+in APPPATH\Views\home_view.php on line 36.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:16:03 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getPrevious()
+in APPPATH\Views\home_view.php on line 37.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:16:13 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getPrevious()
+in APPPATH\Views\home_view.php on line 37.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:18:11 --> Error: Call to undefined method CodeIgniter\Pager\Pager::hasPrevious()
+in APPPATH\Views\home_view.php on line 36.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:19:48 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getPreviousPage()
+in APPPATH\Views\home_view.php on line 36.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:20:24 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getPrevious()
+in APPPATH\Views\home_view.php on line 38.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:20:55 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getPreviousPage()
+in APPPATH\Views\home_view.php on line 38.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:22:26 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getPreviousPageNumber()
+in APPPATH\Views\home_view.php on line 38.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:26:02 --> ParseError: syntax error, unexpected token ";", expecting ":"
+in APPPATH\Views\home_view.php on line 42.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:27:14 --> Error: Call to undefined method CodeIgniter\Pager\Pager::hasNext()
+in APPPATH\Views\home_view.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:28:16 --> Error: Call to undefined method CodeIgniter\Pager\Pager::hasNext()
+in APPPATH\Views\home_view.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:28:55 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getNextPage()
+in APPPATH\Views\home_view.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:29:14 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getNextPage()
+in APPPATH\Views\home_view.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:29:31 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getLast()
+in APPPATH\Views\home_view.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:56:43 --> ErrorException: Undefined array key "id_service"
+in APPPATH\Views\home_view.php on line 21.
+ 1 APPPATH\Views\home_view.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_service"', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:56:51 --> ErrorException: Undefined array key "id_service"
+in APPPATH\Views\home_view.php on line 21.
+ 1 APPPATH\Views\home_view.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_service"', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:57:34 --> ErrorException: Undefined array key "id_service"
+in APPPATH\Views\home_view.php on line 21.
+ 1 APPPATH\Views\home_view.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_service"', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:57:45 --> ErrorException: Undefined array key "id_service"
+in APPPATH\Views\home_view.php on line 21.
+ 1 APPPATH\Views\home_view.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_service"', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:57:50 --> ErrorException: Cannot declare class App\Models\UserModel, because the name is already in use
+in APPPATH\Models\ServiceModel.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-25 02:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:57:58 --> ErrorException: Cannot declare class App\Models\UserModel, because the name is already in use
+in APPPATH\Models\ServiceModel.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-25 02:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:58:52 --> ErrorException: Cannot declare class App\Models\UserModel, because the name is already in use
+in APPPATH\Models\ServiceModel.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-25 02:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:59:08 --> ErrorException: Undefined variable $pager_links
+in APPPATH\Controllers\Login.php on line 42.
+ 1 APPPATH\Controllers\Login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager_links', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Controllers\\Login.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:59:25 --> ErrorException: Undefined variable $pager_links
+in APPPATH\Controllers\Login.php on line 42.
+ 1 APPPATH\Controllers\Login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager_links', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Controllers\\Login.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:59:30 --> ErrorException: Undefined variable $pager_links
+in APPPATH\Controllers\Login.php on line 42.
+ 1 APPPATH\Controllers\Login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager_links', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Controllers\\Login.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:59:40 --> ErrorException: Undefined variable $pager_links
+in APPPATH\Controllers\Login.php on line 42.
+ 1 APPPATH\Controllers\Login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager_links', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Controllers\\Login.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 02:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 02:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 02:59:46 --> ErrorException: Undefined array key "id_service"
+in APPPATH\Views\home_view.php on line 21.
+ 1 APPPATH\Views\home_view.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_service"', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 03:00:01 --> ParseError: syntax error, unexpected token ";"
+in APPPATH\Views\home_view.php on line 21.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 03:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 03:00:13 --> ErrorException: Undefined array key "id_service"
+in APPPATH\Views\home_view.php on line 21.
+ 1 APPPATH\Views\home_view.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_service"', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 03:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 03:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 03:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 03:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 03:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 03:00:45 --> ErrorException: Undefined array key "id_service"
+in APPPATH\Views\home_view.php on line 21.
+ 1 APPPATH\Views\home_view.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_service"', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 03:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 03:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 03:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 03:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 03:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 03:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 03:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 03:02:13 --> ErrorException: Undefined variable $services
+in APPPATH\Views\home_view.php on line 45.
+ 1 APPPATH\Views\home_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $services', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 16:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 16:29:22 --> ErrorException: Undefined variable $services
+in APPPATH\Views\home_view.php on line 45.
+ 1 APPPATH\Views\home_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $services', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 18:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 18:46:38 --> ErrorException: Undefined variable $services
+in APPPATH\Views\home_view.php on line 45.
+ 1 APPPATH\Views\home_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $services', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 18:47:39 --> BadMethodCallException: Call to undefined method App\Models\UserModel::activeServices
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(8): CodeIgniter\Model->__call('activeServices', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 18:48:14 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ServiceModel.php on line 29.
+ 1 APPPATH\Controllers\Home.php(10): App\Models\ServiceModel->activeServices()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 18:49:44 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ServiceModel.php on line 29.
+ 1 APPPATH\Controllers\Home.php(10): App\Models\ServiceModel->activeServices()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-25 18:49:52 --> mysqli_sql_exception: Column 'service_status' in where clause is ambiguous in C:\xampp\htdocs\CapitalVan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CapitalVan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\CapitalVan\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\CapitalVan\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\CapitalVan\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\CapitalVan\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\CapitalVan\system\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\CapitalVan\app\Controllers\Home.php(10): CodeIgniter\BaseModel->paginate(3)
+#7 C:\xampp\htdocs\CapitalVan\system\CodeIgniter.php(941): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\CapitalVan\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\CapitalVan\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\CapitalVan\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-25 18:49:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'service_status' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM (`Service`, `service` as `s`)
+LEFT JOIN `user` as `ud` ON `s`.`id_service_driver` = `ud`.`id_user`
+LEFT JOIN `user` as `ua` ON `s`.`id_service_approver` = `ua`.`id_user`
+LEFT JOIN `Company` as `c` ON `s`.`id_service_company` = `c`.`id_company`
+LEFT JOIN `Place` as `po` ON `s`.`service_origin` = `po`.`id_place`
+LEFT JOIN `Place` as `pd` ON `s`.`service_destination` = `pd`.`id_place`
+LEFT JOIN `Vehicle` as `v` ON `s`.`id_service_vehicle` = `v`.`id_vehicle`
+WHERE `service_status` = :service_status:', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Home.php(10): CodeIgniter\BaseModel->paginate(3)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 18:49:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'service_status' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM (`Service`, `service` as `s`)
+LEFT JOIN `user` as `ud` ON `s`.`id_service_driver` = `ud`.`id_user`
+LEFT JOIN `user` as `ua` ON `s`.`id_service_approver` = `ua`.`id_user`
+LEFT JOIN `Company` as `c` ON `s`.`id_service_company` = `c`.`id_company`
+LEFT JOIN `Place` as `po` ON `s`.`service_origin` = `po`.`id_place`
+LEFT JOIN `Place` as `pd` ON `s`.`service_destination` = `pd`.`id_place`
+LEFT JOIN `Vehicle` as `v` ON `s`.`id_service_vehicle` = `v`.`id_vehicle`
+WHERE `service_status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM (`Service`, `service` as `s`)
+LEFT JOIN `user` as `ud` ON `s`.`id_service_driver` = `ud`.`id_user`
+LEFT JOIN `user` as `ua` ON `s`.`id_service_approver` = `ua`.`id_user`
+LEFT JOIN `Company` as `c` ON `s`.`id_service_company` = `c`.`id_company`
+LEFT JOIN `Place` as `po` ON `s`.`service_origin` = `po`.`id_place`
+LEFT JOIN `Place` as `pd` ON `s`.`service_destination` = `pd`.`id_place`
+LEFT JOIN `Vehicle` as `v` ON `s`.`id_service_vehicle` = `v`.`id_vehicle`
+WHERE `service_status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM (`Service`, `service` as `s`)
+LEFT JOIN `user` as `ud` ON `s`.`id_service_driver` = `ud`.`id_user`
+LEFT JOIN `user` as `ua` ON `s`.`id_service_approver` = `ua`.`id_user`
+LEFT JOIN `Company` as `c` ON `s`.`id_service_company` = `c`.`id_company`
+LEFT JOIN `Place` as `po` ON `s`.`service_origin` = `po`.`id_place`
+LEFT JOIN `Place` as `pd` ON `s`.`service_destination` = `pd`.`id_place`
+LEFT JOIN `Vehicle` as `v` ON `s`.`id_service_vehicle` = `v`.`id_vehicle`
+WHERE `service_status` = :service_status:', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\Home.php(10): CodeIgniter\BaseModel->paginate(3)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 18:49:53 --> [Caused by] mysqli_sql_exception: Column 'service_status' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM (`Service`, `service` as `s`)
+LEFT JOIN `user` as `ud` ON `s`.`id_service_driver` = `ud`.`id_user`
+LEFT JOIN `user` as `ua` ON `s`.`id_service_approver` = `ua`.`id_user`
+LEFT JOIN `Company` as `c` ON `s`.`id_service_company` = `c`.`id_company`
+LEFT JOIN `Place` as `po` ON `s`.`service_origin` = `po`.`id_place`
+LEFT JOIN `Place` as `pd` ON `s`.`service_destination` = `pd`.`id_place`
+LEFT JOIN `Vehicle` as `v` ON `s`.`id_service_vehicle` = `v`.`id_vehicle`
+WHERE `service_status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM (`Service`, `service` as `s`)
+LEFT JOIN `user` as `ud` ON `s`.`id_service_driver` = `ud`.`id_user`
+LEFT JOIN `user` as `ua` ON `s`.`id_service_approver` = `ua`.`id_user`
+LEFT JOIN `Company` as `c` ON `s`.`id_service_company` = `c`.`id_company`
+LEFT JOIN `Place` as `po` ON `s`.`service_origin` = `po`.`id_place`
+LEFT JOIN `Place` as `pd` ON `s`.`service_destination` = `pd`.`id_place`
+LEFT JOIN `Vehicle` as `v` ON `s`.`id_service_vehicle` = `v`.`id_vehicle`
+WHERE `service_status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM (`Service`, `service` as `s`)
+LEFT JOIN `user` as `ud` ON `s`.`id_service_driver` = `ud`.`id_user`
+LEFT JOIN `user` as `ua` ON `s`.`id_service_approver` = `ua`.`id_user`
+LEFT JOIN `Company` as `c` ON `s`.`id_service_company` = `c`.`id_company`
+LEFT JOIN `Place` as `po` ON `s`.`service_origin` = `po`.`id_place`
+LEFT JOIN `Place` as `pd` ON `s`.`service_destination` = `pd`.`id_place`
+LEFT JOIN `Vehicle` as `v` ON `s`.`id_service_vehicle` = `v`.`id_vehicle`
+WHERE `service_status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM (`Service`, `service` as `s`)
+LEFT JOIN `user` as `ud` ON `s`.`id_service_driver` = `ud`.`id_user`
+LEFT JOIN `user` as `ua` ON `s`.`id_service_approver` = `ua`.`id_user`
+LEFT JOIN `Company` as `c` ON `s`.`id_service_company` = `c`.`id_company`
+LEFT JOIN `Place` as `po` ON `s`.`service_origin` = `po`.`id_place`
+LEFT JOIN `Place` as `pd` ON `s`.`service_destination` = `pd`.`id_place`
+LEFT JOIN `Vehicle` as `v` ON `s`.`id_service_vehicle` = `v`.`id_vehicle`
+WHERE `service_status` = :service_status:', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Home.php(10): CodeIgniter\BaseModel->paginate(3)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 18:50:08 --> Error: Call to a member function setPath() on null
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 18:51:11 --> Error: Call to a member function setPath() on null
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 18:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 18:51:44 --> ErrorException: Undefined variable $users
+in APPPATH\Views\home_view.php on line 19.
+ 1 APPPATH\Views\home_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 18:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 18:52:21 --> ErrorException: Undefined array key "user_rut"
+in APPPATH\Views\home_view.php on line 23.
+ 1 APPPATH\Views\home_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_rut"', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 18:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 18:52:31 --> ErrorException: Undefined array key "user_rut"
+in APPPATH\Views\home_view.php on line 23.
+ 1 APPPATH\Views\home_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_rut"', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 18:52:40 --> ParseError: syntax error, unexpected token ";"
+in APPPATH\Views\home_view.php on line 23.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 3 APPPATH\Controllers\Home.php(18): view('home_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 18:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 18:52:45 --> ErrorException: Undefined array key "user_phone"
+in APPPATH\Views\home_view.php on line 24.
+ 1 APPPATH\Views\home_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_phone"', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 18:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 18:52:50 --> ErrorException: Undefined variable $users
+in APPPATH\Views\home_view.php on line 44.
+ 1 APPPATH\Views\home_view.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 18:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 18:53:22 --> Error: Call to a member function getCurrentPage() on null
+in APPPATH\Views\home_view.php on line 57.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(18): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 18:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 18:53:34 --> Error: Call to a member function getCurrentPage() on null
+in APPPATH\Views\home_view.php on line 57.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(18): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 18:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 18:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 18:53:48 --> Error: Call to a member function getCurrentPage() on null
+in APPPATH\Views\home_view.php on line 57.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(18): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 18:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 18:54:20 --> Error: Call to a member function getCurrentPage() on null
+in APPPATH\Views\home_view.php on line 31.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 4 APPPATH\Controllers\Home.php(18): view('home_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 18:54:25 --> Error: Call to a member function setPath() on null
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 18:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 18:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 18:56:50 --> ErrorException: Undefined array key "ud.user_name"
+in APPPATH\Views\home_view.php on line 19.
+ 1 APPPATH\Views\home_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ud.user_name"', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 18:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 19:00:32 --> ErrorException: Undefined array key "user_lastname"
+in APPPATH\Views\home_view.php on line 20.
+ 1 APPPATH\Views\home_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_lastname"', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\CapitalVan\\app\\Views\\home_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home_view', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 19:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 19:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 20:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 20:30:51 --> ErrorException: Undefined variable $builder
+in APPPATH\Models\ServiceModel.php on line 29.
+ 1 APPPATH\Models\ServiceModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $builder', 'C:\\xampp\\htdocs\\CapitalVan\\app\\Models\\ServiceModel.php', 29)
+ 2 APPPATH\Controllers\Home.php(11): App\Models\ServiceModel->activeServices()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 20:30:53 --> ParseError: syntax error, unexpected token ";", expecting ")"
+in APPPATH\Models\ServiceModel.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CapitalVan\\app\\Models\\ServiceModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ServiceModel')
+ 3 APPPATH\Controllers\Home.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ServiceModel')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-25 20:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

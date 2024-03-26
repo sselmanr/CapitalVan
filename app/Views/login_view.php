@@ -24,11 +24,11 @@
 			<form action="login" method="POST">
 				<div class="mb-3 pb-2">
 					<label for="user_username" class="form-label">Nombre de usuario</label>
-					<input type="text" class="form-control" id="user_username" placeholder="Usuario" name="user_username">
+					<input type="text" class="form-control" id="user_username" placeholder="Usuario" name="user_username" require>
 				</div>
 				<div class="mb-3 pb-2">
 					<label for="pass" class="form-label">Contraseña</label>
-					<input type="password" class="form-control" id="pass" placeholder="******" name="pass">
+					<input type="password" class="form-control" id="pass" placeholder="******" name="pass" require>
 				</div>
 				<div class="col d-flex justify-content-center justify-content-md-end pt-3">
 					<input type="submit" value="Iniciar sesión" class="btn btn-dark w-100 btn-responsive">
@@ -38,7 +38,7 @@
 		<style>
 			@media (min-width: 768px) {
 				.btn-responsive {
-					width: 150px !important; /* O puedes especificar un ancho fijo, por ejemplo, width: 200px; */
+					width: 150px !important;
 				}
 				.responsivo{
 					max-width: 545px;
