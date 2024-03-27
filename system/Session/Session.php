@@ -65,7 +65,7 @@ class Session implements SessionInterface
      *
      * @deprecated Use $this->config->expiration.
      */
-    protected $sessionExpiration = 0;
+    protected $sessionExpiration = 86400;
 
     /**
      * The location to save sessions to, driver dependent.

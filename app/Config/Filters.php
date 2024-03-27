@@ -41,7 +41,7 @@ class Filters extends BaseConfig
             'authGuard' => ['except' => ['/', 'login']],
         ],
         'after' => [
-            'toolbar',
+            //'toolbar',
             // 'honeypot',
             // 'secureheaders',
         ],
