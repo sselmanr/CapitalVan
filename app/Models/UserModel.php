@@ -3,7 +3,7 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 class UserModel extends Model{
-    protected $table = "user";
+    protected $table = "User";
     protected $allowed_fields = ["
         'id_user',
         'id_user_type',
