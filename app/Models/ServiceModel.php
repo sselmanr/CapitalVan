@@ -30,9 +30,9 @@ class ServiceModel extends Model{
       $this->builder()->select('s.id_service, s.service_status as status, ud.user_name as nameDriver, ud.user_lastname as lastnameDriver,' .
       'ua.user_name as nameApprover, ua.user_lastname as lastnameApprover, c.company_name, po.place_name as origin, pd.place_name as destination,' .
       ' s.service_date, s.service_acronym, s.service_quantity_passengers, s.service_price, s.service_attachment, v.vehicle_licence_plate');
-      $this->builder()->from('service as s');
-      $this->builder()->join('user as ud', 's.id_service_driver = ud.id_user', 'LEFT');
-      $this->builder()->join('user as ua', 's.id_service_approver = ua.id_user', 'LEFT');
+      $this->builder()->from('Service as s');
+      $this->builder()->join('User as ud', 's.id_service_driver = ud.id_user', 'LEFT');
+      $this->builder()->join('User as ua', 's.id_service_approver = ua.id_user', 'LEFT');
       $this->builder()->join('Company as c', 's.id_service_company = c.id_company', 'LEFT');
       $this->builder()->join('Place as po', 's.service_origin = po.id_place', 'LEFT');
       $this->builder()->join('Place as pd', 's.service_destination = pd.id_place', 'LEFT');
@@ -54,6 +54,6 @@ class ServiceModel extends Model{
     }
 
     public function finishedService(){
-      
+
     }
 }
