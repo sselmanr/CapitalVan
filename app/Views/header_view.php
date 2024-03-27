@@ -77,10 +77,10 @@
                 Usuarios
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="<?php echo site_url('gastos_menores')?>">Agregar usuario</a></li>
-                <li><a class="dropdown-item" href="<?php echo site_url('facturas_realizadas')?>">Ver usuarios</a></li>
-                <li><a class="dropdown-item" href="<?php echo site_url('registro_pagos')?>">Modificar Usuarios</a></li>
-                <li><a class="dropdown-item" href="<?php echo site_url('reportes')?>">Eliminar Usuarios</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('')?>">Agregar usuario</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('')?>">Ver usuarios</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('')?>">Modificar Usuarios</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('')?>">Eliminar Usuarios</a></li>
               </ul>
             </li>
           </ul>

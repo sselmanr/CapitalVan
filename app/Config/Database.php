@@ -27,11 +27,12 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => 'u321174469_CapitalVanRoot',
-        /* 'username'     => 'root', */
-        /* 'password'     => '', */
+        /* 'username'     => 'u321174469_CapitalVanRoot',
         'password'     => '~zJllcqSqp1J',
-        'database'     => 'u321174469_CapitalVan',
+        'database'     => 'u321174469_CapitalVan', */
+        'database'     => 'CapitalVan',
+        'username'     => 'root',
+        'password'     => '',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,

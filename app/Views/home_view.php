@@ -9,7 +9,7 @@
           <tr>
             <th>ID</th>
             <th>Nombre conductor</th>
-            <th>Nombre aprobador</th>
+            <th class="d-none d-lg-table-cell">Nombre aprobador</th>
             <th>Origen</th>
             <th class="d-none d-lg-table-cell">Destino</th>
           </tr>
@@ -20,8 +20,8 @@
               <td> <?= $service['id_service']?> </td>
               <td> <?= $service['nameDriver']?> &nbsp; <?= $service['lastnameDriver']?></td>
               <td> <?= $service['nameApprover']?> &nbsp; <?= $service['lastnameApprover']?></td>
-              <td> <?= $service['origin']?> </td>
-              <td> <?= $service['destination']?> </td>
+              <td class="d-none d-lg-table-cell"> <?= $service['origin']?> </td>
+              <td class="d-none d-lg-table-cell"> <?= $service['destination']?> </td>
               
               
             </tr>
@@ -145,9 +145,6 @@
   </div>
 </div>
 <style>
-table{
-  border: solid 3px;
-}
 a{
   text-decoration: inherit !important;
   color: inherit !important;
