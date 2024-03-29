@@ -13,10 +13,10 @@
           </select>
         </div>
     </div>
-    <div class="row pb-2">
+    <!-- <div class="row pb-2">
       <div class="col"><label for="archivo"></label>Archivo</div>
       <div class="col"><input type="file" id="archivo" class="form-control"></div>
-    </div>
+    </div> -->
     <div class="row pb-2">
       <div class="col"><label for="npasajeros"></label>N° de pasajeros</div>
       <div class="col"><input type="number" id="npasajeros" class="form-control" placeholder="Ej: 6"></div>
@@ -24,21 +24,31 @@
     <div class="row pb-2">
       <div class="col"><label for="sigla_servicio">Sigla del servicio</label></div>
       <div class="col" data-bs-theme="dark">
-          <select name="sigla_servicio" id="sigla_servicio" class="form-control form-select">
-            <option disabled selected hidden>Seleccionar sigla</option>
-            <option value="sigla_servicio1">Sigla 1</option>
-            <option value="sigla_servicio2">Sigla 2</option>
-            <option value="sigla_servicio3">Sigla 3</option>
-          </select>
+          <input class="form-control" type="text" name="sigla" id="sigla" placeholder="Ingresar la sigla">
         </div>
     </div>
     <div class="row pb-2">
       <div class="col"><label for="origen_servicio">Origen</label></div>
-      <div class="col"><input type="text" id="origen_servicio" class="form-control" placeholder="Ej: Santiago"></div>
+      <div class="col">
+        <select name="origin" id="origin" class="form-control">
+          <option value="0" disable hidden selected>Seleccionar un Origen</option>
+          <?php foreach ($places as $place): ?>
+            <option value="<?= ($place['id_place']) ?>"><?= ($place['place_name']) ?></option>
+          <?php endforeach ?>
+        </select>
+      </div>
     </div>
     <div class="row pb-2">
       <div class="col"><label for="destino_servicio">Destino</label></div>
-      <div class="col"><input type="text" id="destino_servicio" class="form-control" placeholder="Ej: Viña del mar"></div>
+      <div class="col">
+        <select name="origin" id="origin" class="form-control">
+          <option value="0" disable hidden selected>Seleccionar un Destino</option>
+          <?php foreach ($places as $place): ?>
+            <option value="<?= ($place['id_place']) ?>"><?= ($place['place_name']) ?></option>
+          <?php endforeach ?>
+          <li><input class="form-control" type="text" name="" id="" placeholder="ingresar destino"></li>
+        </select>
+      </div>
     </div>
     <div class="row pb-2">
       <div class="col"><label for="observaciones">Observaciones</label></div>

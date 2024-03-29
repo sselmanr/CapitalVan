@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\UserModel;   
-use App\Models\ServiceModel;   
+use App\Models\ServiceModel;    
 
 class Home extends BaseController{
     

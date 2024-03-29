@@ -9,6 +9,7 @@ DROP TABLE IF EXISTS Company;
 DROP TABLE IF EXISTS Vehicle;
 DROP TABLE IF EXISTS User;
 DROP TABLE IF EXISTS User_Type;
+DROP TABLE IF EXISTS Service_Type;
 /* Borrado de tablas para ejecutar desde 0 */
 
 CREATE TABLE IF NOT EXISTS User_Type(
@@ -79,6 +80,15 @@ CREATE TABLE IF NOT EXISTS Place(
   INDEX idx_place_name(place_name)
 )CHARSET=utf8;
 
+CREATE TABLE IF NOT EXISTS Service_Type(
+  id_service_type INT NOT NULL AUTO_INCREMENT,
+  service_type VARCHAR (50) NOT NULL,
+
+  PRIMARY KEY (id_service_type),
+  UNIQUE INDEX idx_id_service_type(id_service_type),
+  INDEX idx_service_type(service_type)
+);
+
 CREATE TABLE IF NOT EXISTS Service(
   id_service INT NOT NULL AUTO_INCREMENT,
   id_service_driver INT,
@@ -86,6 +96,7 @@ CREATE TABLE IF NOT EXISTS Service(
   id_service_approver INT,
   id_service_vehicle INT,
   id_service_company INT NOT NULL,
+  id_service_type INT NOT NULL,
   service_start_time TIME,
   service_end_time TIME,
   service_origin INT NOT NULL,
@@ -106,6 +117,7 @@ CREATE TABLE IF NOT EXISTS Service(
   FOREIGN KEY(id_service_approver) REFERENCES User(id_user),
   FOREIGN KEY(service_origin) REFERENCES Place(id_place),
   FOREIGN KEY(service_destination) REFERENCES Place(id_place),
+  FOREIGN KEY(id_service_type) REFERENCES Service_Type(id_service_type),
 
   UNIQUE INDEX idx_id_service(id_service),
   INDEX idx_id_service_driver(id_service_driver),
@@ -113,6 +125,7 @@ CREATE TABLE IF NOT EXISTS Service(
   INDEX idx_id_service_approver(id_service_approver),
   INDEX idx_id_service_vehicle(id_service_vehicle),
   INDEX idx_id_service_company(id_service_company),
+  INDEX idx_id_service_type(id_service_type),
   INDEX idx_service_origin(service_origin),
   INDEX idx_service_destination(service_destination),
   INDEX idx_service_date(service_date),
@@ -148,12 +161,16 @@ INSERT INTO Place (place_name, place_address, place_phone, place_email) VALUES (
 INSERT INTO Place (place_name, place_address, place_phone, place_email) VALUES ('lugar dos', 'direccion lugar dos', 777725555, 'lugar2@correo.cl');
 INSERT INTO Place (place_name, place_address, place_phone, place_email) VALUES ('lugar tres', 'direccion lugar tres', 111123333, 'lugar3@correo.cl');
 
-INSERT INTO Service (id_service_guide, id_service_company, service_origin, service_destination, service_acronym, service_quantity_passengers, service_price) VALUES (3, 1, 1, 2, 'AAA001', 6, 150000);
-INSERT INTO Service (id_service_driver, id_service_guide, id_service_company, service_origin, service_destination, service_acronym, service_quantity_passengers, service_price, service_status) VALUES (5, 3, 1, 1, 2, 'AAA001', 8, 210000, 1);
-INSERT INTO Service (id_service_driver, id_service_guide, id_service_company, service_origin, service_destination, service_acronym, service_quantity_passengers, service_price, service_status) VALUES (6, 3, 1, 1, 2, 'AAA001', 5, 110000, 1);
-INSERT INTO Service (id_service_driver, id_service_guide, id_service_company, service_origin, service_destination, service_acronym, service_quantity_passengers, service_price, service_status) VALUES (6, 3, 1, 1, 2, 'AAA001', 5, 110000, 1);
-INSERT INTO Service (id_service_driver, id_service_guide, id_service_company, service_origin, service_destination, service_acronym, service_quantity_passengers, service_price, service_status) VALUES (6, 3, 1, 1, 2, 'AAA001', 5, 110000, 1);
-INSERT INTO Service (id_service_driver, id_service_guide, id_service_company, service_origin, service_destination, service_acronym, service_quantity_passengers, service_price, service_status) VALUES (6, 3, 1, 1, 2, 'AAA001', 5, 110000, 1);
+INSERT INTO Service_Type(service_type) VALUES ('FULL DAY');
+INSERT INTO Service_Type(service_type) VALUES ('CITY TOUR');
+INSERT INTO Service_Type(service_type) VALUES ('HD');
+
+INSERT INTO Service (id_service_guide, id_service_company, service_origin, service_destination, id_service_type, service_acronym, service_quantity_passengers, service_price) VALUES (3, 1, 1, 2, 1, 'AAA001', 6, 150000);
+INSERT INTO Service (id_service_driver, id_service_guide, id_service_company, service_origin, service_destination, id_service_type, service_acronym, service_quantity_passengers, service_price, service_status) VALUES (5, 3, 1, 1, 2, 2, 'AAA001', 8, 210000, 1);
+INSERT INTO Service (id_service_driver, id_service_guide, id_service_company, service_origin, service_destination, id_service_type, service_acronym, service_quantity_passengers, service_price, service_status) VALUES (6, 3, 1, 1, 2, 3, 'AAA001', 5, 110000, 1);
+INSERT INTO Service (id_service_driver, id_service_guide, id_service_company, service_origin, service_destination, id_service_type, service_acronym, service_quantity_passengers, service_price, service_status) VALUES (6, 3, 1, 1, 2, 1, 'AAA001', 5, 110000, 1);
+INSERT INTO Service (id_service_driver, id_service_guide, id_service_company, service_origin, service_destination, id_service_type, service_acronym, service_quantity_passengers, service_price, service_status) VALUES (6, 3, 1, 1, 2, 1, 'AAA001', 5, 110000, 1);
+INSERT INTO Service (id_service_driver, id_service_guide, id_service_company, service_origin, service_destination, id_service_type, service_acronym, service_quantity_passengers, service_price, service_status) VALUES (6, 3, 1, 1, 2, 1, 'AAA001', 5, 110000, 1);
 
 /* consultas de prueba */
 SELECT 

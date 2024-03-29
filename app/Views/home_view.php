@@ -2,9 +2,10 @@
 <div class="container text-center alto-pantalla">
   <h1 class="text-start ps-4">¡Hola <?php echo session()->get('user_name') ?>!</h1>
   <div class="container align-items-center">
-    <h5 class="">Servicios activos</h5>
-    <div class="" data-bs-theme="light">
-      <table class="table table-hover table-striped table-sm">
+    <h5 class="text-underline">Servicios activos</h5>
+              <!-- TABLA CON LOS RESULTADOS DE LOS SERVICIOS ACTIVOS -->
+    <div class="" data-bs-theme="">
+      <table class="table table-light table-hover table-striped table-sm m-0 rounded-edges">
         <thead>
           <tr>
             <th>ID</th>
@@ -22,16 +23,14 @@
               <td> <?= $service['nameApprover']?> &nbsp; <?= $service['lastnameApprover']?></td>
               <td class="d-none d-lg-table-cell"> <?= $service['origin']?> </td>
               <td class="d-none d-lg-table-cell"> <?= $service['destination']?> </td>
-              
-              
             </tr>
           <?php endforeach; ?>
         </tbody>
       </table>
 
-
-      <nav aria-label="Page navigation example" data-bs-theme="light">
-        <ul class="pagination text-dark justify-content-center justify-content-md-end">
+              <!-- BOTONES DE NAVEGACION DE RESULTADOS -->
+      <nav aria-label="Page navigation example borde-verde" data-bs-theme="light">
+        <ul class="pagination text-dark justify-content-center justify-content-md-end pt-2">
           <?php if ($pager->getCurrentPage() != 1) : ?>
             <li class="page-item">
               <a class="page-link" href="<?= "home?page=" . $pager->getCurrentPage() - 1 ?>" aria-label="<?= lang('Pager.previous') ?>">
