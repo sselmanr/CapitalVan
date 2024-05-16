@@ -82,6 +82,11 @@
               </ul>
             </li>
             <!-- Fin Submenu -->
+            <li>
+              <a class="dropdown-item" href="<?php echo site_url('listar_usuarios/99')?>">Ver todos</a>
+            </li>
+            <!-- Fin Submenu -->
+            
           </ul>
         </li>
           <div class="mx-md-1 mx-lg-2 mx-xl-3 mx-xxl-4"></div>

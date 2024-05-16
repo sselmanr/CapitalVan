@@ -19,7 +19,7 @@ class Login extends BaseController
 		$service_model = new ServiceModel();
 
 		$user_username = $this->request->getVar('user_username');
-		$password = $this->request->getVar('pass');
+		$password 		 = $this->request->getVar('pass');
 
 		$data = $user_model->where("user_username", $user_username)->first();
 		$data2 = $service_model->first();

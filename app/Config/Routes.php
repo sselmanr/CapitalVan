@@ -24,4 +24,5 @@ $routes->get('ingresar_guia', 'Guia::index');
 $routes->get('ingresar_administrador', 'Administrador::index');
 /* $routes->get('ingresar', 'Usuario::index'); */
 $routes->get('ingresar/(:any)', 'Usuario::ingresar_vista/$1');
-$routes->get('ingresarUsuario', 'Usuario::ingresar');
+$routes->post('ingresarUsuario', 'Usuario::ingresarUsuario');
+$routes->get('listar_usuarios/(:any)', 'Usuario::listarUsuarios/$1');

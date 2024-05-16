@@ -4,8 +4,8 @@ use CodeIgniter\Model;
 
 class UserModel extends Model{
     protected $table = "User";
-    protected $allowed_fields = ["
-        'id_user',
+    protected $primaryKey = 'id_user';
+    protected $allowedFields = [
         'id_user_type',
         'user_username',
         'user_name',
@@ -14,8 +14,8 @@ class UserModel extends Model{
         'user_phone',
         'user_rut',
         'user_pass',
-        'user_created_at',
-    "];
+        'user_created_at'
+    ];
 
     public function index(){
 
