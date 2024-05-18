@@ -1,30 +1,51 @@
 <h5 class="text-underline">Servicios activos</h5>
+<form action="<?= site_url('modificar_usuarios/'. $usuario['id_user'])?>" method="post">
               <!-- TABLA CON LOS RESULTADOS DE LOS SERVICIOS ACTIVOS -->
     <div class="" data-bs-theme="">
       <table class="table table-light table-hover table-striped table-sm m-0 rounded-edges">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Nombre</th>
-            <th class="d-none d-lg-table-cell">Correo</th>
-            <th>RUT</th>
-            <th class="d-none d-lg-table-cell">Fecha creación</th>
-            <th>Modificar</th>
-            <th>Eliminar</th>
-          </tr>
-        </thead>
         <tbody>
-          <?php foreach ($usuarios as $usuario) : ?>
-            <tr>
-              <td> <?= $usuario['id_user']?> </td>
-              <td> <?= $usuario['user_name']?> &nbsp; <?= $usuario['user_lastname']?></td>
-              <td> <?= $usuario['user_email']?> &nbsp; <?= $usuario['user_phone']?></td>
-              <td class="d-none d-lg-table-cell"> <?= $usuario['user_rut']?> </td>
-              <td class="d-none d-lg-table-cell"> <?= $usuario['user_created_at']?> </td>
-              <td><a href="<?= site_url('mostrar_usuarios/' . $usuario['id_user']) ?>" class="btn btn-warning">Modificar</a></td>
-              <td><a href="<?= site_url('eliminar_usuarios/' . $usuario['id_user'] . "/" . $usuario['id_user_type'])?>" class="btn btn-danger">Eliminar</a></td>
-            </tr>
-          <?php endforeach; ?>
+          <tr>
+            <td>id</td>
+            <td><input type="text" name="" id="" value="<?= $usuario['id_user']?>"></td>
+          </tr>
+          <tr>
+            <td>tipo</td>
+            <td><input type="text" name="" id="" value="<?= $usuario['id_user_type']?>"></td>
+          </tr>
+          <tr>
+            <td>nombre</td>
+            <td><input type="text" name="" id="" value="<?= $usuario['user_name']?>"></td>
+          </tr>
+          <tr>
+            <td>apellido</td>
+            <td><input type="text" name="" id="" value="<?= $usuario['user_lastname']?>"></td>
+          </tr>
+          <tr>
+            <td>usuario</td>
+            <td><input type="text" name="" id="" value="<?= $usuario['user_username']?>"></td>
+          </tr>
+          <tr>
+            <td>correo</td>
+            <td><input type="text" name="" id="" value="<?= $usuario['user_email']?>"></td>
+          </tr>
+          <tr>
+            <td>telefono</td>
+            <td><input type="text" name="" id="" value="<?= $usuario['user_phone']?>"></td>
+          </tr>
+          <tr>
+            <td>rut</td>
+            <td><input type="text" name="" id="" value="<?= $usuario['user_rut']?>"></td>
+          </tr>
+          <tr>
+            <td>contraseña</td>
+            <td><input type="text" name="" id="" value="<?= $usuario['user_pass']?>"></td>
+          </tr>
+          <tr>
+            <td>fecha creación</td>
+            <td><input type="text" name="" id="" value="<?= $usuario['user_created_at']?>"></td>
+          </tr>
         </tbody>
       </table>
     </div>
+    </form>
+    <button class="btn btn-primary">Modificar</button>

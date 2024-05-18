@@ -99,7 +99,7 @@ class Usuario extends BaseController
     public function mostrarUsuario($id_user){
       $user_model = new UserModel();
     
-      $data['usuario'] = $user_model->where('id_user', $id_user);
+      $data = ['usuario' => $user_model->where('id_user', $id_user)->first()];
 
       echo view('header_view');
       echo view('modificarUsuario_view', $data);
