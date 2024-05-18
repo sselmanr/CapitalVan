@@ -22,7 +22,9 @@ $routes->get('reportes', 'Reportes::index');
 $routes->get('ingresar_conductor', 'Conductor::index');
 $routes->get('ingresar_guia', 'Guia::index');
 $routes->get('ingresar_administrador', 'Administrador::index');
-/* $routes->get('ingresar', 'Usuario::index'); */
 $routes->get('ingresar/(:any)', 'Usuario::ingresar_vista/$1');
 $routes->post('ingresarUsuario', 'Usuario::ingresarUsuario');
 $routes->get('listar_usuarios/(:any)', 'Usuario::listarUsuarios/$1');
+$routes->get('eliminar_usuarios/(:any)/(:any)', 'Usuario::eliminarUsuario/$1/$2');
+$routes->get('modificar_usuarios/(:any)', 'Usuario::modificarUsuario/$1');
+$routes->get('mostrar_usuario/(:any)', 'Usuario::mostrarUsuario/$1');

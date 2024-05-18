@@ -57,8 +57,7 @@
               <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conductor</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="<?php echo site_url('ingresar/2')?>">Agregar Conductor </a></li>
-                <li><a class="dropdown-item" href="#">Modificar Conductor</a></li>
-                <li><a class="dropdown-item" href="#">Eliminar Conductor</a></li>
+                <li><a class="dropdown-item" href="<?= site_url('listar_usuarios/2')?>">Ver todos</a></li>
               </ul>
             </li>
             <!-- Fin Submenu -->
@@ -67,8 +66,7 @@
               <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guia</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="<?php echo site_url('ingresar/3')?>">Agregar Guia </a></li>
-                <li><a class="dropdown-item" href="#">Modificar Guia</a></li>
-                <li><a class="dropdown-item" href="#">Eliminar Guia</a></li>
+                <li><a class="dropdown-item" href="<?= site_url('listar_usuarios/3')?>">Ver todos</a></li>
               </ul>
             </li>
             <!-- Fin Submenu -->
@@ -77,8 +75,7 @@
               <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Administrador</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="<?php echo site_url('ingresar/1')?>">Agregar Administrador </a></li>
-                <li><a class="dropdown-item" href="#">Modificar Administrador</a></li>
-                <li><a class="dropdown-item" href="#">Eliminar Administrador</a></li>
+                <li><a class="dropdown-item" href="<?= site_url('listar_usuarios/1')?>">Ver todos</a></li>
               </ul>
             </li>
             <!-- Fin Submenu -->
