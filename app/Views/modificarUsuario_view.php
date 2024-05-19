@@ -4,11 +4,11 @@
     <div class="" data-bs-theme="">
       <table class="table table-light table-hover table-striped table-sm m-0 rounded-edges">
         <tbody>
-          <tr>
+          <tr hidden>
             <td>id</td>
             <td><input type="text" name="id_user" id="" value="<?= $usuario['id_user']?>"></td>
           </tr>
-          <tr>
+          <tr hidden>
             <td>tipo</td>
             <td><input type="text" name="id_user_type" id="" value="<?= $usuario['id_user_type']?>"></td>
           </tr>
@@ -40,7 +40,7 @@
             <td>contraseña</td>
             <td><input type="text" name="user_pass" id="" value="<?= $usuario['user_pass']?>"></td>
           </tr>
-          <tr>
+          <tr hidden>
             <td>fecha creación</td>
             <td><input type="text" name="user_created_at" id="" value="<?= $usuario['user_created_at']?>"></td>
           </tr>

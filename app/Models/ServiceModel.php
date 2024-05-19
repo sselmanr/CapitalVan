@@ -1,11 +1,12 @@
 <?php
 namespace App\Models;
+
 use CodeIgniter\Model;
 
 class ServiceModel extends Model{
     protected $table = "Service";
+    protected $primaryKey = 'id_service';
     protected $allowed_fields = ["
-      'id_service',
       'id_service_driver',
       'id_service_guide',
       'id_service_approver',

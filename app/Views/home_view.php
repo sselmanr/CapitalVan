@@ -105,7 +105,7 @@
       </a>
     </div>
     <div class="col col-3 text-center">
-      <a href="<?php echo site_url('conductor')?>">
+      <a href="<?php echo site_url('listar_usuarios/2')?>">
         <img src="public/assets/img/volante.svg" alt="Boton para ver los conductores" width="50">
         <br>
         Conductor

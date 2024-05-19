@@ -53,7 +53,7 @@ class Usuario extends BaseController
 
     public function listarUsuarios($tipo_usuario){
       if ($tipo_usuario == 99) {
-        $data['usuarios'] = $this->user_model->orderBy('id_user_type', 'ASC')->findAll();
+        $data['usuarios'] = $this->user_model->orderBy('user_created_at', 'ASC')->findAll();
       } elseif ($tipo_usuario == 1) {
         $data['usuarios'] = $this->user_model->where('id_user_type', $tipo_usuario)->orderBy('user_created_at', 'ASC')->findAll();
       } elseif ($tipo_usuario == 2) {

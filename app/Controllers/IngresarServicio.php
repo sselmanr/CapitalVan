@@ -5,10 +5,14 @@ use App\Models\PlaceModel;
 
 class IngresarServicio extends BaseController
 {
-    public function index()
-    {
-        $placeModel = new PlaceModel();
-        $data['places'] = $placeModel->findAll();
+    protected $place_model;
+
+    public function __construct(){
+        $this->place_model = new PlaceModel();
+    }
+
+    public function index(){
+        $data['places'] = $this->place_model->findAll();
 
         echo view('header_view');
         echo view('ingresar_servicio_view', $data);
