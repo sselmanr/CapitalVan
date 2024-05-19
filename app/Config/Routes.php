@@ -27,4 +27,4 @@ $routes->post('ingresarUsuario', 'Usuario::ingresarUsuario');
 $routes->get('listar_usuarios/(:any)', 'Usuario::listarUsuarios/$1');
 $routes->get('eliminar_usuarios/(:any)/(:any)', 'Usuario::eliminarUsuario/$1/$2');
 $routes->get('mostrar_usuarios/(:any)', 'Usuario::mostrarUsuario/$1');
-$routes->post('modificar_usuarios/(:any)', 'Usuario::modificarUsuario/$1');
+$routes->post('modificar_usuarios', 'Usuario::modificarUsuario');

@@ -5,6 +5,12 @@ use App\Models\UserModel;
 
 class Usuario extends BaseController
 {
+  protected $user_model;
+
+  public function __construct(){
+    $this->user_model = new UserModel();
+  }
+
     public function index()
     {
       $data = ['user' => 2];
@@ -21,8 +27,6 @@ class Usuario extends BaseController
     }
 
     public function ingresarUsuario(){
-      $user_model = new UserModel();
-
       $type     = $this->request->getPost("id_user_type");
       $username = $this->request->getVar('username');
       $name     = $this->request->getVar('name');
@@ -43,23 +47,21 @@ class Usuario extends BaseController
           'user_pass'     => md5($pass),
       ];
 
-      $user_model->insert($data);
+      $this->user_model->insert($data);
       return redirect("home");
     }
 
     public function listarUsuarios($tipo_usuario){
-      $user_model = new UserModel();
-
       if ($tipo_usuario == 99) {
-        $data['usuarios'] = $user_model->orderBy('id_user_type', 'ASC')->findAll();
+        $data['usuarios'] = $this->user_model->orderBy('id_user_type', 'ASC')->findAll();
       } elseif ($tipo_usuario == 1) {
-        $data['usuarios'] = $user_model->where('id_user_type', $tipo_usuario)->orderBy('user_created_at', 'ASC')->findAll();
+        $data['usuarios'] = $this->user_model->where('id_user_type', $tipo_usuario)->orderBy('user_created_at', 'ASC')->findAll();
       } elseif ($tipo_usuario == 2) {
-        $data['usuarios'] = $user_model->where('id_user_type', $tipo_usuario)->orderBy('user_created_at', 'ASC')->findAll();
+        $data['usuarios'] = $this->user_model->where('id_user_type', $tipo_usuario)->orderBy('user_created_at', 'ASC')->findAll();
       } elseif ($tipo_usuario == 3) {
-        $data['usuarios'] = $user_model->where('id_user_type', $tipo_usuario)->orderBy('user_created_at', 'ASC')->findAll();
+        $data['usuarios'] = $this->user_model->where('id_user_type', $tipo_usuario)->orderBy('user_created_at', 'ASC')->findAll();
       } else {
-        $data['usuarios'] = $user_model->where('id_user_type', $tipo_usuario)->orderBy('user_created_at', 'ASC')->findAll();
+        $data['usuarios'] = $this->user_model->where('id_user_type', $tipo_usuario)->orderBy('user_created_at', 'ASC')->findAll();
       }
       echo view('header_view');
       echo view('usuarios_view', $data);
@@ -67,20 +69,18 @@ class Usuario extends BaseController
     }
 
     public function eliminarUsuario($id_user, $tipo_usuario){
-      $user_model = new UserModel();
-
-      $user_model->where('id_user', $id_user)->delete();
+      $this->user_model->where('id_user', $id_user)->delete();
 
       if ($tipo_usuario == 99 or $tipo_usuario != 99) {
-        $data['usuarios'] = $user_model->findAll();
+        $data['usuarios'] = $this->user_model->findAll();
       } elseif ($tipo_usuario == 1) {
-        $data['usuarios'] = $user_model->where('user_type_user', $tipo_usuario);
+        $data['usuarios'] = $this->user_model->where('user_type_user', $tipo_usuario);
       } elseif ($tipo_usuario == 2) {
-        $data['usuarios'] = $user_model->where('user_type_user', $tipo_usuario);
+        $data['usuarios'] = $this->user_model->where('user_type_user', $tipo_usuario);
       } elseif ($tipo_usuario == 3) {
-        $data['usuarios'] = $user_model->where('user_type_user', $tipo_usuario);
+        $data['usuarios'] = $this->user_model->where('user_type_user', $tipo_usuario);
       } else {
-        $data['usuarios'] = $user_model->where('user_type_user', $tipo_usuario);
+        $data['usuarios'] = $this->user_model->where('user_type_user', $tipo_usuario);
       }
 
       echo view('header_view');
@@ -89,17 +89,28 @@ class Usuario extends BaseController
     }
     
     public function modificarUsuario(){
-      
-      
-      echo view('header_view');
-      echo view('usuarios_view', $data);
-      echo view('footer_view');
+      $updatingData = [
+        'id_user'         => $this->request->getPost('id_user'),
+        'id_user_type'    => $this->request->getPost('id_user_type'),
+        'user_name'       => $this->request->getPost('user_name'),
+        'user_lastname'   => $this->request->getPost('user_lastname'),
+        'user_username'   => $this->request->getPost('user_username'),
+        'user_email'      => $this->request->getPost('user_email'),
+        'user_phone'      => $this->request->getPost('user_phone'),
+        'user_rut'        => $this->request->getPost('user_rut'),
+        'user_pass'       => $this->request->getPost('user_pass'),
+        'user_created_at' => $this->request->getPost('user_created_at'),
+      ];
+
+      print_r($updatingData);
+
+      $this->user_model->update($updatingData['id_user'], $updatingData);
+
+      return $this->listarUsuarios($this->request->getPost('id_user_type'));
     }
     
     public function mostrarUsuario($id_user){
-      $user_model = new UserModel();
-    
-      $data = ['usuario' => $user_model->where('id_user', $id_user)->first()];
+      $data = ['usuario' => $this->user_model->where('id_user', $id_user)->first()];
 
       echo view('header_view');
       echo view('modificarUsuario_view', $data);
