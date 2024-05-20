@@ -101,11 +101,7 @@ class Usuario extends BaseController
         'user_pass'       => $this->request->getPost('user_pass'),
         'user_created_at' => $this->request->getPost('user_created_at'),
       ];
-
-      print_r($updatingData);
-
       $this->user_model->update($updatingData['id_user'], $updatingData);
-
       return $this->listarUsuarios($this->request->getPost('id_user_type'));
     }
     

@@ -12,119 +12,23 @@
     <div class="">
       <h5 class="text-center pb-3" id="subtitulo"></h5>
     </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="<?php echo date('Y-m-d')?>" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa AAA S.A.</h6>
-        </div>
+
+    <?php foreach($servicios as $servicio) : ?>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
+          <a href="<?= "confirmar/" . $servicio['id_service']?>">
+          <div class="d-flex flex-row align-items-center bg-light rounded-pill">
+            <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
+            <div class="flex-grow-1 ms-2 me-3">
+              <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
+            </div>
+          </div>
+        </a>
       </div>
-    </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-15" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
-        </div>
-      </div>
-    </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="<?php echo date('Y-m-d')?>" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
-        </div>
-      </div>
-    </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="<?php echo date('Y-m-d')?>" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
-        </div>
-      </div>
-    </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="2024-03-12" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
-        </div>
-      </div>
-    </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="2024-03-12" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
-        </div>
-      </div>
-    </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="2024-03-13" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
-        </div>
-      </div>
-    </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-12" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
-        </div>
-      </div>
-    </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-25" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
-        </div>
-      </div>
-    </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-22" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa 12311 S.A.</h6>
-        </div>
-      </div>
-    </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pendiente data-date="2024-03-22" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
-        </div>
-      </div>
-    </div>
-    <!-- Etiqueta 1 -->
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" id="servicio" data-pagado data-date="" data-bs-toggle="modal" data-bs-target="#datosServicio" type="button">
-      <div class="d-flex flex-row align-items-center bg-light rounded-pill">
-        <div class="d-flex justify-content-center align-items-center bg-info rounded-circle text-white fw-bold" style="width: 50px; height: 50px; border: 3px solid white;">10:30</div>
-        <div class="flex-grow-1 ms-2 me-3">
-          <h6 class="text-dark mb-0">Empresa 123 S.A.</h6>
-        </div>
-      </div>
-    </div>
+    <?php endforeach ?>
     <!-- Repite para las siguientes etiquetas -->
   </div>
 </div>
 
-<button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#datosVuelos" type="button">Datos vuelos</button>
   <div class="modal modal-lg fade text-dark" data-bs-theme="light" id="datosVuelos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">

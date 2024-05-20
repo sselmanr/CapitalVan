@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 class ServiceModel extends Model{
     protected $table = "Service";
     protected $primaryKey = 'id_service';
-    protected $allowed_fields = ["
+    protected $allowedFields = [
       'id_service_driver',
       'id_service_guide',
       'id_service_approver',
@@ -19,8 +19,8 @@ class ServiceModel extends Model{
       'service_quantity_passengers',
       'service_price',
       'service_status',
-      'service_attachment',
-    "];
+      'service_attachment'
+  ];
 
     public function index(){
 

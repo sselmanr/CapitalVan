@@ -42,7 +42,6 @@
               <!-- <li><hr class="dropdown-divider"></li> -->
               <li><a class="dropdown-item" href="<?php echo site_url('ingresar_servicio')?>">Ingresar servicio</a></li>
               <li><a class="dropdown-item" href="<?php echo site_url('confirmar_servicio')?>">Confirmar servicio</a></li>
-              <li><a class="dropdown-item" href="<?php echo site_url('servicios_realizados')?>">Servicios realizados</a></li>
               <li><a class="dropdown-item" href="<?php echo site_url('servicios_realizados')?>">Ver todos los servicios</a></li>
             </ul>
           </li>
@@ -52,7 +51,7 @@
             Usuarios
           </a>
           <ul class="dropdown-menu">
-            <!-- Submenu -->
+            <!-- Submenu Conductor-->
             <li class="dropdown">
               <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conductor</a>
               <ul class="dropdown-menu">
@@ -61,7 +60,7 @@
               </ul>
             </li>
             <!-- Fin Submenu -->
-            <!-- Submenu -->
+            <!-- Submenu Guia-->
             <li class="dropdown">
               <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guia</a>
               <ul class="dropdown-menu">
@@ -70,7 +69,7 @@
               </ul>
             </li>
             <!-- Fin Submenu -->
-            <!-- Submenu -->
+            <!-- Submenu Administrador-->
             <li class="dropdown">
               <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Administrador</a>
               <ul class="dropdown-menu">
@@ -78,7 +77,7 @@
                 <li><a class="dropdown-item" href="<?= site_url('listar_usuarios/1')?>">Ver todos</a></li>
               </ul>
             </li>
-            <!-- Fin Submenu -->
+            <!-- Fin Submenu Todos los usuarios-->
             <li>
               <a class="dropdown-item" href="<?php echo site_url('listar_usuarios/99')?>">Ver todos</a>
             </li>

@@ -47,5 +47,3 @@
         </tbody>
       </table>
     </div>
-    <button type="submit" class="btn btn-primary">Modificar</button>
-    </form>
